@@ -1,4 +1,35 @@
-```yaml
+---
+title: Intelbras OLT - Running Config com VLANs e Storm Control
+type: config-summary
+vendor: intelbras
+device_type: olt
+scope: storm-control-and-bridging
+created: 2026-04-13 17:45
+updated: 2026-04-13 17:45
+tags: [cyber, intelbras, olt, vlan, storm-control, configuracao]
+source: hermes
+---
+
+# Intelbras OLT - Running Config com VLANs e Storm Control
+
+## Objetivo
+Destacar os trechos da OLT Intelbras relacionados a bloqueio de discovery automático, storm-control, descrições de portas, traffic-profiles e bridges VLAN.
+
+## Resumo rápido
+- `onu block disable` aplicado nas GPONs 1 a 8
+- `mac-aging-time` definido em 3600
+- storm-control configurado no uplink `eth 5` e em múltiplas GPONs
+- portas com descrição operacional para links e câmera
+- uplinks e downlinks com diversas VLANs de serviço
+- há profile/rate-limit e entradas `cpe-mgr` registrados
+
+## Pontos de atenção
+- essa nota não é a configuração completa da OLT; ela destaca a parte de bridging e políticas operacionais
+- várias VLANs críticas aparecem aqui, então vale consultar antes de alterações em uplink
+- as portas `eth 5`, `eth 6`, `eth 7` e `eth 8` têm papel operacional explícito
+
+## Comandos brutos preservados
+```text
 
 Starting configuration dump ...
 =========================================
@@ -248,6 +279,7 @@ bridge-path modify gpon 7 onu 4 gem 260 mode flap
 bridge add gpon 8 onu 1 downlink vlan 903 tagged data eth 1
 bridge-path modify gpon 8 onu 1 gem 257 mode flap
 bridge add gpon 8 onu 2 downlink vlan 258 tagged data eth 1
+
 bridge-path modify gpon 8 onu 2 gem 258 mode flap
 bridge add gpon 8 onu 3 downlink vlan 3256 tagged data eth 1
 bridge-path modify gpon 8 onu 3 gem 260 mode flap

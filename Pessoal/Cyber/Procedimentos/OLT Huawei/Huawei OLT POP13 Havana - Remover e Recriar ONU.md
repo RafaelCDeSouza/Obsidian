@@ -1,4 +1,63 @@
-```script
+---
+title: Huawei OLT POP13 Havana - Remover e Recriar ONU
+type: procedure
+vendor: huawei
+device_type: olt
+location: pop13_havana
+status: active
+created: 2026-04-13 17:45
+updated: 2026-04-13 17:45
+tags: [cyber, huawei, olt, onu, havana, procedimento]
+source: hermes
+---
+
+# Huawei OLT POP13 Havana - Remover e Recriar ONU
+
+## Objetivo
+Procedimento específico do POP13 Havana para remover uma ONU existente, ajustar line/srv profile e recriar os bindings necessários.
+
+## Contexto identificado
+- equipamento: `POP13_OLT1_HAVANA`
+- caso principal: GPON `0/1/12`, ONT `11`
+- VLANs envolvidas: `133` e `3907`
+- revisão de profile antigo x novo incluída na própria nota
+
+## Fluxo operacional
+1. remover `service-port 11`
+2. remover `service-port 8`
+3. entrar na interface GPON correta
+4. apagar a ONT antiga
+5. revisar/ajustar line profile
+6. revisar/ajustar srv profile
+7. recriar service-ports e native-vlans
+8. validar serviço após o ajuste
+
+## Pontos críticos
+- esta nota mostra troca de mapeamento entre as portas eth 1 e eth 2
+- o line-profile 3907 altera a relação entre gems 907 e 133
+- o srvprofile também muda o mapeamento q-in-q/translation entre as portas
+- não aplicar sem confirmar o comportamento esperado do cliente
+
+## Comandos principais
+```text
+undo service-port 11
+undo service-port 8
+interface gpon 0/1
+ont delete 12 11
+service-port 8 vlan 133 gpon 0/1/12 ont 11 gemport 133 multi-service user-vlan 133 tag-transform translate
+service-port 11 vlan 3907 gpon 0/1/12 ont 11 gemport 907 multi-service user-vlan 3907 tag-transform translate
+ont port native-vlan 12 11 eth 1 vlan 3907 priority 0
+ont port native-vlan 12 11 eth 2 vlan 133 priority 0
+```
+
+## Teste adicional anotado
+A nota também contém um teste em outra Huawei/Sapucaia:
+- interface `gpon 0/2`
+- `ont add 0 1`
+- `service-port 1 vlan 11`
+
+## Comandos brutos preservados
+```text
 
 Remover ONU da Huawai
 

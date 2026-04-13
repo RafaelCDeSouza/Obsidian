@@ -1,4 +1,40 @@
-```sql
+---
+title: Intelbras OLT - Running Config Geral
+type: config-summary
+vendor: intelbras
+device_type: olt
+scope: full-running-config
+created: 2026-04-13 17:45
+updated: 2026-04-13 17:45
+tags: [cyber, intelbras, olt, running-config, configuracao]
+source: hermes
+---
+
+# Intelbras OLT - Running Config Geral
+
+## Objetivo
+Guardar uma referência operacional ampla da running-config de uma OLT Intelbras, sem substituir as notas de backup.
+
+## Resumo rápido
+- inventário de ONUs distribuídas em GPONs 1, 2, 3, 4, 5, 7 e 8
+- descrições de clientes/órgãos/links aplicadas às ONUs
+- uplinks com ampla distribuição de VLANs
+- perfis de bridge, route, SNMP, inband/oob e noauto configurados
+- contém trechos que depois foram desmembrados nas notas de GPON 3 e VLAN/storm-control
+
+## Como usar esta nota
+- consultar panorama geral da OLT
+- localizar rapidamente uma ONU, descrição ou VLAN
+- validar bridge-profile, IP de gerência, rota default e política de auto-service
+- usar junto das notas específicas quando precisar de contexto detalhado
+
+## Pontos de atenção
+- esta nota é uma referência operacional derivada, não uma nota de backup
+- antes de aplicar qualquer comando em produção, validar se a configuração ainda é atual
+- ONUs, descrições e bridges podem refletir um estado histórico do equipamento
+
+## Comandos brutos preservados
+```text
 intelbras-olt> show running-config-devel
 Starting configuration dump ...
 =========================================
@@ -248,6 +284,7 @@ bridge add eth 6 uplink vlan 3102 tagged
 bridge add eth 6 uplink vlan 3540 tagged
 bridge add eth 8 uplink vlan 250 tagged
 bridge add xeth 1 uplink vlan 251 tagged
+
 bridge add xeth 1 uplink vlan 252 tagged
 bridge add xeth 1 uplink vlan 3560 tagged
 bridge add gpon 1 onu 1 downlink vlan 3101 tagged data eth 1

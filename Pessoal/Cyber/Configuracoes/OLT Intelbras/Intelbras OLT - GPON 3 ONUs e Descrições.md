@@ -1,4 +1,42 @@
-```scss
+---
+title: Intelbras OLT - GPON 3 ONUs e Descrições
+type: config-summary
+vendor: intelbras
+device_type: olt
+scope: gpon-3
+created: 2026-04-13 17:45
+updated: 2026-04-13 17:45
+tags: [cyber, intelbras, olt, gpon, onu, configuracao]
+source: hermes
+---
+
+# Intelbras OLT - GPON 3 ONUs e Descrições
+
+## Objetivo
+Concentrar a visão da GPON 3: seriais provisionados, descrições e VLANs de bridge associadas.
+
+## Resumo rápido
+- porta analisada: `gpon 3`
+- ONUs listadas: 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 14 e 16
+- há clientes residenciais, órgãos públicos e entradas arquivadas
+- várias ONUs usam VLAN 258; exceções incluem 251, 929, 964, 967, 918 e 3540
+
+## ONUs com destaque
+- ONU 1: `DESCONHECIDO`, VLAN 251
+- ONU 2: `Moises_Gomes_dos_Santos`, VLAN 258, arquivado
+- ONU 3: `PREF_CLISAM_VLAN_929`, VLAN 929
+- ONU 12: `PREF_EMEI_MARA_MATTOS_VLAN_964_CYBER`, VLAN 964
+- ONU 13: `PREF_Secretaria_de_Mun_Esporte_e_Lazer_VLAN_967`, VLAN 967
+- ONU 14: `PREF_ESF_Cohab_Casas_VLAN_918`, VLAN 918
+- ONU 16: `MIDIANET_FUNDACAO_DE_SAUDE_SAPUCAIA_DO_SUL_VLAN_3540`, VLAN 3540
+
+## Quando consultar
+- auditoria de provisionamento da GPON 3
+- conferência de serial e descrição antes de troca de ONU
+- validação de VLAN entregue em cada cliente
+
+## Comandos brutos preservados
+```text
 onu set gpon 3 onu 1 serial-number ITBS325766FB meprof intelbras-110g
 onu set gpon 3 onu 2 serial-number ITBS0A6E43CA meprof intelbras-default
 onu set gpon 3 onu 3 serial-number ZNTS2CD282A3 meprof intelbras-default
