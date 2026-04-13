@@ -1,0 +1,12 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# Obsidian per-device / ephemeral files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
+# Local automation logs
+.vault-automation/logs/
