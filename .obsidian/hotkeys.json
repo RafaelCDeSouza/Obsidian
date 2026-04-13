@@ -1,0 +1,11 @@
+{
+  "code-block-plugin:Paste code block": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ]
+}

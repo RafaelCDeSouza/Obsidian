@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "1eaa36cd26775ccf",
+    "type": "split",
+    "children": [
+      {
+        "id": "f62cc927934fa02b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38cfeda3b6aca57c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pessoal/Cyber/Geral/Script Mikrotik Cyber.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Script Mikrotik Cyber"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8d0b49f9a3925118",
+    "type": "split",
+    "children": [
+      {
+        "id": "430fed74b5f9f204",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee633aa2ed2d7a9c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "b2bf84897af010d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "baf01035ed9fa459",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "abbd57cc611720ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "923cb80df9c165a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "634a0fe733465c85",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pessoal/Cyber/Geral/Sem título.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Sem título"
+            }
+          },
+          {
+            "id": "6e43e2d1c7290040",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Pessoal/Cyber/Geral/Sem título.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Sem título"
+            }
+          },
+          {
+            "id": "7a2fd06ade4269f4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "4eb2d2aeb302d9f9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "de2801fb89a60a16",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pessoal/Cyber/Geral/Sem título.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Sem título"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "38cfeda3b6aca57c",
+  "lastOpenFiles": [
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP12_BETANIA_N_04022026.md",
+    "Pessoal/Cyber/Switchs/Backups/Backup_POP17_OLT1_ELEA_080126.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP42_ALIANCA_101025.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP59_INFRAWEB_19032026.md",
+    "Sem título.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP57_CAIXA_AG51433-293.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP25_POWER_01042026.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP15_EXPOINTER_09042026.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP14_LOMBA_GRANDE_23022026.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP13_COND_HAVANA_09042026.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP00_CYBER_11042026.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP00_CYBER_01042026.md",
+    "Pessoal/Cyber/Switchs/Backups/backup_POP13_OLT1_HAVANA_080125.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_OLT_POWER_INTELBRAS_ANTIGA_11042026.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_ACATO_POP51_TRESPASSOS.md",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_TELIUM_09032026.txt",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP59_INFRAWEB_19032026.txt",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP25_POWER_01042026.txt",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP15_EXPOINTER_09042026.txt",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP14_LOMBA_GRANDE_23022026.txt",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP13_COND_HAVANA_09042026.txt",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP00_CYBER_11042026.txt",
+    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP00_CYBER_01042026.txt",
+    "Pessoal/Cyber/Switchs/Backups/backup_sw_alianca_101025.txt",
+    "Pessoal/Cyber/Switchs/Backups/Backup_POP17_OLT1_ELEA_080126.txt",
+    "OutCore/Geral/Sem título 1.md",
+    "Pessoal/Cyber/Geral/Testes de Senhas Antigas.md",
+    "Pessoal/Cyber/Geral/Sem título 14.md",
+    "Pessoal/Conhecimentos Gerais/BACKUP e RESTORE PSQL.md",
+    "OutCore/Clientes/Guarida/Solicitações PBX.md",
+    "Pessoal/Cyber/Geral/Sem título 13.md",
+    "Pessoal/Cyber/Geral/Sem título 12.md",
+    "Pessoal/Cyber/Geral/Criar Usuários Switchs ou OLTs.md",
+    "Pessoal/Garden/Apple.md",
+    "OutCore/App/Inter/DEV - Chave Privada.md"
+  ]
+}

@@ -1,0 +1,1 @@
+1) CallBack para ligações abandonadas: Mostrando a listagem desses telefones, com a opção de um botão para iniciar as ligações, essas ligações seriam feitas e enviadas para a fila de CallBack (opção de escolher a fila) e se atendida, informado status. Essa listagem e ligações deve ter um filtro para evitar que o sistema ligue para números muito antigos.
