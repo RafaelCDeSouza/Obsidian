@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Daily/README.md",
+                "file": "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - Running Config com VLANs e Storm Control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Intelbras OLT - Running Config com VLANs e Storm Control"
             }
           }
         ]
@@ -208,6 +208,8 @@
   },
   "active": "38cfeda3b6aca57c",
   "lastOpenFiles": [
+    "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - GPON 3 ONUs e Descrições.md",
+    "01 Daily/README.md",
     "OutCore/Geral/Sem título 1.md",
     "OutCore/Geral/Sem título.md",
     "OutCore/Clientes/Guarida/Solicitações PBX.md",
@@ -234,14 +236,12 @@
     "Pessoal/Cyber/Configuracoes/RouterOS/Firewall OutCore Telium - Export RouterOS 7.20 2025-10-22.md",
     "Pessoal/Cyber/Configuracoes/RouterOS/CCR1036 OutCore - Export RouterOS 7.20 2025-10-14.md",
     "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - Running Config com VLANs e Storm Control.md",
-    "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - GPON 3 ONUs e Descrições.md",
     "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - Running Config Geral.md",
     "Pessoal/Cyber/Configuracoes/RouterOS",
     "Pessoal/Cyber/Configuracoes/OLT Intelbras",
     "Pessoal/Cyber/Configuracoes",
     "Pessoal/Cyber/00 - Índice de Conhecimento Cyber.md",
     "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP15_ESTEIO_13042026.md",
-    "Pessoal/Cyber/Geral/Sem título 15.md",
     "99 System/Hermes",
     "99 System"
   ]
