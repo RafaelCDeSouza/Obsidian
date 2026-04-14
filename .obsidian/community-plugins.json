@@ -1,5 +1,12 @@
 [
   "obsidian-editor-shortcuts",
   "obsidian-autocomplete-plugin",
-  "code-block-plugin"
+  "code-block-plugin",
+  "calendar",
+  "dataview",
+  "periodic-notes",
+  "quickadd",
+  "obsidian-tasks-plugin",
+  "obsidian-git",
+  "templater-obsidian"
 ]

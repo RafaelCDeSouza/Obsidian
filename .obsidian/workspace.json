@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f62cc927934fa02b",
+        "id": "f2f949ed990747b1",
         "type": "tabs",
         "children": [
           {
-            "id": "38cfeda3b6aca57c",
+            "id": "aa8581563df0e3ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - Running Config com VLANs e Storm Control.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Intelbras OLT - Running Config com VLANs e Storm Control"
+              "title": "New tab"
             }
           }
         ]
@@ -201,11 +197,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "38cfeda3b6aca57c",
+  "active": "ee633aa2ed2d7a9c",
   "lastOpenFiles": [
+    "05 AI/Manual de Redes Sociais - Outcore.md",
+    "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - Running Config com VLANs e Storm Control.md",
     "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - GPON 3 ONUs e Descrições.md",
     "01 Daily/README.md",
     "OutCore/Geral/Sem título 1.md",
@@ -233,13 +233,11 @@
     "Pessoal/Cyber/Configuracoes/Switches DmOS",
     "Pessoal/Cyber/Configuracoes/RouterOS/Firewall OutCore Telium - Export RouterOS 7.20 2025-10-22.md",
     "Pessoal/Cyber/Configuracoes/RouterOS/CCR1036 OutCore - Export RouterOS 7.20 2025-10-14.md",
-    "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - Running Config com VLANs e Storm Control.md",
     "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - Running Config Geral.md",
     "Pessoal/Cyber/Configuracoes/RouterOS",
     "Pessoal/Cyber/Configuracoes/OLT Intelbras",
     "Pessoal/Cyber/Configuracoes",
     "Pessoal/Cyber/00 - Índice de Conhecimento Cyber.md",
-    "Pessoal/Cyber/Switchs/Backups/BACKUP_SW1POP15_ESTEIO_13042026.md",
     "99 System/Hermes",
     "99 System"
   ]
