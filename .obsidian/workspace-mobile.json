@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pessoal/Cyber/Reunião_Future_13042026.md",
+                "file": "05 AI/Manual de Redes Sociais - Outcore.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reunião_Future_13042026"
+              "title": "Manual de Redes Sociais - Outcore"
             }
           }
         ]
@@ -166,5 +166,7 @@
     }
   },
   "active": "9629b8bbacbc600d",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Pessoal/Cyber/Reunião_Future_13042026.md"
+  ]
 }
