@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f62cc927934fa02b",
+        "id": "f2f949ed990747b1",
         "type": "tabs",
         "children": [
           {
-            "id": "38cfeda3b6aca57c",
+            "id": "aa8581563df0e3ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_BETANIA_VLAN_121_16042026.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "BACKUP_OLT_BETANIA_VLAN_121_16042026"
+              "title": "New tab"
             }
           }
         ]
@@ -44,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 281.5
   },
   "right": {
     "id": "abbd57cc611720ab",
@@ -171,8 +167,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -181,8 +177,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -195,54 +191,54 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "38cfeda3b6aca57c",
+  "active": "ee633aa2ed2d7a9c",
   "lastOpenFiles": [
-    "Pessoal/Cyber/Backups/OLTs/BACKUP_POP13_OLT1_HAVANA_080125.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_BETANIA_VLAN_121_16042026.md",
+    "Pessoal/Cyber/Backups/OLTs/Sem título.md",
+    "Pessoal/Cyber/Backups/OLTs/BACKUP_POP13_OLT1_HAVANA_080125.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_POP17_OLT1_ELEA_080126.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_ACATO_POP51_TRESPASSOS.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP00_CYBER_11042026.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP59_INFRAWEB_19032026.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP15_EXPOINTER_09042026.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP57_CAIXA_AG51433-293.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP12_BETANIA_N_04022026.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP13_COND_HAVANA_09042026.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP00_CYBER_01042026.md",
-    "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
-    "Pessoal/Cyber/Backups/NE",
-    "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - Running Config com VLANs e Storm Control.md",
-    "Pessoal/Cyber/Backups/Switchs",
-    "Pessoal/Cyber/Backups/OLTs",
-    "05 AI/Manual de Redes Sociais - Outcore.md",
-    "Pessoal/Cyber/Configuracoes/OLT Intelbras/Intelbras OLT - GPON 3 ONUs e Descrições.md",
-    "01 Daily/README.md",
-    "OutCore/Geral/Sem título 1.md",
-    "OutCore/Geral/Sem título.md",
-    "OutCore/Clientes/Guarida/Solicitações PBX.md",
-    "Sem título.md",
-    "Sem título 1.md",
-    "Pessoal/Cyber/Geral/Script Mikrotik Cyber.md",
-    "Pessoal/Cyber/Geral/Testes de Senhas Antigas.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP15_ESTEIO_13042026.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP42_ALIANCA_101025.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP14_LOMBA_GRANDE_23022026.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP25_POWER_01042026.md",
     "Pessoal/Cyber/Backups/NE/BACKUP_PS-CE01-POP00-SCHOSSLER_13042026.md",
-    "Pessoal/Cyber/Procedimentos/OLT Huawei/Huawei OLT POP13 Havana - Remover e Recriar ONU.md",
-    "Pessoal/Cyber/Procedimentos/OLT Huawei/Huawei OLT - Procedimento Remover e Recriar ONU.md",
+    "Pessoal/Cyber/Backups/NE",
+    "Pessoal/Cyber/Backups/OLTs/backup_POP13_OLT1_HAVANA_080125.md",
+    "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
+    "Pessoal/Cyber/Backups/OLTs/Backup_POP17_OLT1_ELEA_080126.md",
+    "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_POWER_INTELBRAS_ANTIGA_11042026.md",
+    "Pessoal/Cyber/Backups/Switchs",
+    "Pessoal/Cyber/Backups/Sem título",
+    "Pessoal/Cyber/Backups/OLTs",
+    "Pessoal/Cyber/Backups/backup_POP13_OLT1_HAVANA_080125.md",
+    "Pessoal/Cyber/Backups/Backup_POP17_OLT1_ELEA_080126.md",
+    "Pessoal/Cyber/Backups/BACKUP_TELIUM_09032026.txt",
+    "Pessoal/Cyber/Backups/BACKUP_SW1POP59_INFRAWEB_19032026.md",
+    "Pessoal/Cyber/Backups/BACKUP_SW1POP57_CAIXA_AG51433-293.md",
+    "Pessoal/Cyber/Backups/BACKUP_SW1POP42_ALIANCA_101025.md",
+    "Pessoal/Cyber/Backups",
     "Pessoal/Cyber/Procedimentos/OLT Huawei",
     "Pessoal/Cyber/Procedimentos",
-    "Pessoal/Cyber/MPLS e VSIs/MPLS SW1POP63 VILLELA - Trechos de Configuracao.md",
-    "Pessoal/Cyber/MPLS e VSIs/Huawei VSI POP70 e POP10 - Trechos de Configuracao.md",
-    "Pessoal/Cyber/MPLS e VSIs/Huawei VSI POP23 ESTACAO - Trechos de Configuracao.md",
     "Pessoal/Cyber/MPLS e VSIs",
-    "Pessoal/Cyber/Configuracoes/Switches Huawei/Huawei SW2POP20 NAVEGANTES - Running Config.md",
-    "Pessoal/Cyber/Configuracoes/Switches Huawei/Huawei SW1POP00 CYBER - Running Config.md",
-    "Pessoal/Cyber/Configuracoes/Switches Huawei/Huawei OLT POP03 GPON - Running Config.md",
-    "Pessoal/Cyber/Configuracoes/Switches Huawei",
-    "Pessoal/Cyber/Configuracoes/Switches DmOS",
-    "Pessoal/Cyber/Configuracoes/RouterOS",
-    "Pessoal/Cyber/Configuracoes/OLT Intelbras"
+    "Pessoal/Cyber/Configuracoes/Switches Huawei"
   ]
 }
