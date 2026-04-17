@@ -11,10 +11,14 @@
             "id": "aa8581563df0e3ef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00 Inbox/Sem título.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Sem título"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -191,21 +195,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ee633aa2ed2d7a9c",
+  "active": "aa8581563df0e3ef",
   "lastOpenFiles": [
     "00 Inbox/Anotações Sistema OutCore.md",
-    "00 Inbox/Sem título 1.md",
     "00 Inbox/Sem título.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_BETANIA_VLAN_121_16042026.md",
     "Pessoal/Cyber/Backups/OLTs/Sem título.md",
@@ -235,6 +238,7 @@
     "Pessoal/Cyber/Backups/backup_POP13_OLT1_HAVANA_080125.md",
     "Pessoal/Cyber/Backups/Backup_POP17_OLT1_ELEA_080126.md",
     "Pessoal/Cyber/Backups/BACKUP_TELIUM_09032026.txt",
+    "Pessoal/Cyber/Backups/BACKUP_SW1POP59_INFRAWEB_19032026.md",
     "Pessoal/Cyber/Backups",
     "Pessoal/Cyber/Procedimentos/OLT Huawei",
     "Pessoal/Cyber/Procedimentos",
