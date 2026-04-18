@@ -13,8 +13,7 @@
 
 ## Bugs
 [ ] - Limpar filtros não funciona nas telas
-[ ] - Botão de novo usuário não funciona
-[ ] - c
+[ ] - Filtros não funcionam
 [ ] - Remover o campo unidades da listagem/edição do usuário e mostrar a empresa que ele pertence e a possibilidade de inserir em uma
 [ ] - 
 [ ] - 
