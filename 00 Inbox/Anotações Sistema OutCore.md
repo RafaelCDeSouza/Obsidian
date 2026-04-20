@@ -7,7 +7,7 @@
 [x] - Adicionar a opção de adicionar itens a uma fatura que não esteja com nota e boleto emitidos
 [ ] - Remover a opção de apaga um contrato, apenas adicionar o cancelamento.
 [ ] - Mostrar melhor os erros dos fomulários
-[ ] - 
+[ ] - Adicionar o logo da empresa, colocar ao salvar a edição, já enviamos pra fica enviar o logo. Colocamos um campo para fazer o upload dele.
 [ ] - 
 [ ] - 
 
