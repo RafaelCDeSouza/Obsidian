@@ -17,5 +17,5 @@
 [x] - Remover o campo unidades da listagem/edição do usuário e mostrar a empresa que ele pertence e a possibilidade de inserir em uma
 [ ] - Ao buscar o CEP do endereço do cliente, não preenche a cidade
 [ ] - Não funciona a pesquisa pelo nome do cliente na tela de clientes
-[ ] - 
-[ ] - 
+[ ] - Não está funcionando a paginação em serviços
+[ ] - Não está funcionando o botão de editar em detalhes da empresa
