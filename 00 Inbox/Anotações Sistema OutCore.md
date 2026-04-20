@@ -6,7 +6,7 @@
 		Uma fatura, terá a opção de aprovar manualmente sempre após gerada automaticamente, precisamos de um botão que aprove a emissão da fatura e após clicado nele, a nota e cobrança são geradas automaticamente e enviadas para o cliente.
 [x] - Adicionar a opção de adicionar itens a uma fatura que não esteja com nota e boleto emitidos
 [ ] - Remover a opção de apaga um contrato, apenas adicionar o cancelamento.
-[ ] - 
+[ ] - Mostrar melhor os erros dos fomulários
 [ ] - 
 [ ] - 
 [ ] - 
