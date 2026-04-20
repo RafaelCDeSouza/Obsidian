@@ -221,10 +221,50 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c868c2980fd3b30",
+  "floating": {
+    "id": "79679cc56175e3f5",
+    "type": "floating",
+    "children": [
+      {
+        "id": "36288bfa53ad6c85",
+        "type": "window",
+        "children": [
+          {
+            "id": "22b9e9345532ceb3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b4f121609ec833a4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Sem título.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Sem título"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2955,
+        "y": 37,
+        "width": 1483,
+        "height": 1010,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "b4f121609ec833a4",
   "lastOpenFiles": [
-    "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
+    "Sem título.md",
     "00 Inbox/Sem título 1.md",
+    "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
     "00 Inbox/Anotações Sistema OutCore.md",
     "00 Inbox/Sem título.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_BETANIA_VLAN_121_16042026.md",
@@ -252,7 +292,6 @@
     "Pessoal/Cyber/Backups/Sem título",
     "Pessoal/Cyber/Backups/OLTs",
     "Pessoal/Cyber/Backups/backup_POP13_OLT1_HAVANA_080125.md",
-    "Pessoal/Cyber/Backups/Backup_POP17_OLT1_ELEA_080126.md",
     "Pessoal/Cyber/Backups/BACKUP_TELIUM_09032026.txt",
     "Pessoal/Cyber/Backups",
     "Pessoal/Cyber/Procedimentos/OLT Huawei",
