@@ -13,3 +13,5 @@ Valor franquia é 480, 9 chamados po 49, a partir do 10 ele 89.
 9 chamados remotos, 1 deslocamento. Tu vai pagar adicional do deslocamento.
 
 
+1500 50
+50 10 ( 50 = 2500)
