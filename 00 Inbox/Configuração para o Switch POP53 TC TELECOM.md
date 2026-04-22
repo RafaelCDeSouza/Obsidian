@@ -351,3 +351,10 @@ router ospf 1 vrf global
  !
 !
 ```
+
+
+```perl
+ local-user future password 
+ local-user future privilege level 15
+ local-user future service-type ssh http
+```
