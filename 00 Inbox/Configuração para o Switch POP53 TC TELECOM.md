@@ -158,24 +158,57 @@ mpls ldp
  !
 !
 mpls l2vpn
- vpls-group POP57_ALT_CAIX01_POP02_TELIUM
-  vpn VSI_3153_POP02-11_TR_ALT_CAIX01
+ vpls-group POP53_TC_TELECOM_POP00_ARQUIM
+  vpn VSI_3153_POP00-POP53_TC_TELECOM
    vfi
     pw-type ethernet
-    neighbor 10.244.188.2
-     pw-id 3964
+    neighbor 10.244.188.0
+     pw-id 3153
     !
    !
    bridge-domain
     bridge-mtu 9000
-    access-interface gigabit-ethernet-1/1/2
-    !
     access-interface ten-gigabit-ethernet-1/1/4
     !
    !
   !
  !
 !
+
+
+```
+
+
+## SW1POP00_CYBER
+
+```undefined
+vlan batch 3153
+
+vsi VSI_3153_POP00-POP53_TC_TELECOM static
+ pwsignal ldp
+  vsi-id 3153
+  peer 10.244.188.53
+ mtu 9000
+ encapsulation ethernet
+#
+
+mpls ldp remote-peer 10.244.188.53
+ remote-ip 10.244.188.53
+#
+
+vlan 3153
+ description VLAN_3153_TC_TELECON
+
+
+interface Vlanif3153
+ description VLAN_3153_POP53_TC_TELECOM
+ l2 binding vsi VSI_3153_POP00-POP53_TC_TELECOM
+#
+
+
+interface Eth-Trunk5
+ port trunk allow-pass vlan 3153
+#
 
 
 ```
