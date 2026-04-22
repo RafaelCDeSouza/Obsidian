@@ -42,3 +42,9 @@ ospf 1 router-id 10.244.189.10
 ```
 
 
+```kotlin
+interface l3 L3_VLAN1153_MPLS
+ lower-layer-if vlan 1153
+ ipv4 address 10.244.153.2/30
+!
+```
