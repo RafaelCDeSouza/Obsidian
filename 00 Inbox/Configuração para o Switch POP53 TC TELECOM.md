@@ -296,7 +296,38 @@ dot1q
 
 ```vbnet
 
+undo vlan batch 1153
+
 vlan batch 1168
+
+undo vlan 1153
+
+vlan 1168
+ description VLAN1168_SW1POP10_SW1POP68_MPLS
+ 
+undo interface Vlanif1153
+ 
+interface Vlanif1168
+ description VLAN1168_SW1POP10_SW1POP68_OSPF
+ mtu 9216
+ ip address 10.244.168.1 255.255.255.252
+ ospf cost 10
+ ospf network-type p2p
+#
+
+interface XGigabitEthernet0/0/3
+ undo port trunk allow-pass vlan 1153
+ port trunk allow-pass vlan 1168
+#
+
+ospf 1 router-id 10.244.189.10
+ undo silent-interface Vlanif1168
+ area 0.0.0.0
+undo  network 10.244.153.0 0.0.0.3 description Vlanif1153
+network 10.244.168.0 0.0.0.3 description Vlanif1168
+#
+
+
 
 
 ```
