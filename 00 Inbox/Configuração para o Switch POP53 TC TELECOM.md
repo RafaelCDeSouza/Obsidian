@@ -79,4 +79,103 @@ dot1q
 !
 
 
+snmp traps config-commit
+snmp traps cpu-core
+snmp traps cpu-load
+snmp traps link-status
+snmp traps login-success
+snmp agent disabled
+snmp agent version v2c
+snmp agent version v3
+snmp community CyberWeb
+ sec-name CyberWeb
+!
+snmp community public
+ sec-name public
+!
+snmp notify std_v1_trap
+ tag std_v1_trap
+!
+snmp notify std_v2_inform
+ tag std_v2_inform
+ type inform
+!
+snmp notify std_v2_trap
+ tag std_v2_trap
+!
+snmp notify std_v3_inform
+ tag std_v3_inform
+ type inform
+!
+snmp notify std_v3_trap
+ tag std_v3_trap
+!
+snmp vacm group CyberWeb
+ member CyberWeb
+  sec-model [ v2c ]
+ !
+ access "" v2c no-auth-no-priv
+  read-view root
+  notify-view root
+ !
+!
+snmp vacm group public
+ member public
+  sec-model [ v2c ]
+ !
+ access "" v2c no-auth-no-priv
+  read-view root
+  write-view root
+  notify-view root
+ !
+!
+snmp vacm view root
+ subtree 1.3
+  included
+ !
+!
+
+clock timezone BRA -3
+hostname SW1POP53_TC_TELECOM
+telnet-server enabled
+
+
+
+
+
+
+
+
+
+
+
+mpls ldp
+ lsr-id loopback-0
+  interface l3-L3_VLAN1157_MPLS
+  !
+  neighbor targeted 10.244.188.2
+  !
+ !
+!
+mpls l2vpn
+ vpls-group POP57_ALT_CAIX01_POP02_TELIUM
+  vpn VSI_3153_POP02-11_TR_ALT_CAIX01
+   vfi
+    pw-type ethernet
+    neighbor 10.244.188.2
+     pw-id 3964
+    !
+   !
+   bridge-domain
+    bridge-mtu 9000
+    access-interface gigabit-ethernet-1/1/2
+    !
+    access-interface ten-gigabit-ethernet-1/1/4
+    !
+   !
+  !
+ !
+!
+
+
 ```

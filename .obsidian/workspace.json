@@ -35,8 +35,7 @@
               "title": "Sem título 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,10 +220,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "66585bacf0751c50",
+  "active": "3c868c2980fd3b30",
   "lastOpenFiles": [
-    "00 Inbox/Configuração para o Switch POP53 TC TELECOM.md",
     "Sem título 1.md",
+    "00 Inbox/Configuração para o Switch POP53 TC TELECOM.md",
     "00 Inbox/Anotações Sistema OutCore.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP57_ALT_CAIX01_22042026.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
