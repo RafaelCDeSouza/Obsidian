@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aa8581563df0e3ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BACKUP_OLT_NAVEGANTES_ANTIGA"
-            }
-          },
-          {
             "id": "3c868c2980fd3b30",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "Configuração para o Switch POP53 TC TELECOM"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,13 +208,14 @@
   },
   "active": "3c868c2980fd3b30",
   "lastOpenFiles": [
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP10_P_EUCALIPTOS_22042026.md",
     "00 Inbox/Configuração para o Switch POP53 TC TELECOM.md",
     "00 Inbox/Anotações Sistema OutCore.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP57_ALT_CAIX01_22042026.md",
+    "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP10_P_EUCALIPTOS_22042026.md",
     "00 Inbox/Sem título.md",
     "00 Inbox/Sem título 1.md",
     "Sem título.md",
-    "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_BETANIA_VLAN_121_16042026.md",
     "Pessoal/Cyber/Backups/OLTs/Sem título.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_POP13_OLT1_HAVANA_080125.md",
@@ -249,7 +235,6 @@
     "Pessoal/Cyber/Backups/NE/BACKUP_PS-CE01-POP00-SCHOSSLER_13042026.md",
     "Pessoal/Cyber/Backups/NE",
     "Pessoal/Cyber/Backups/OLTs/backup_POP13_OLT1_HAVANA_080125.md",
-    "Pessoal/Cyber/Backups/OLTs/Backup_POP17_OLT1_ELEA_080126.md",
     "Pessoal/Cyber/Backups/Switchs",
     "Pessoal/Cyber/Backups/Sem título",
     "Pessoal/Cyber/Backups/OLTs",
