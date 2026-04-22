@@ -8,31 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3c868c2980fd3b30",
+            "id": "aa8581563df0e3ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Inbox/Configuração para o Switch POP53 TC TELECOM.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Configuração para o Switch POP53 TC TELECOM"
-            }
-          },
-          {
-            "id": "66585bacf0751c50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem título 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sem título 1"
+              "title": "New tab"
             }
           }
         ]
@@ -58,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -92,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 281.5
   },
   "right": {
     "id": "abbd57cc611720ab",
@@ -209,29 +191,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c868c2980fd3b30",
+  "active": "ee633aa2ed2d7a9c",
   "lastOpenFiles": [
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP10_P_EUCALIPTOS_22042026.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP57_ALT_CAIX01_22042026.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP00_CYBER_22042026.md",
     "00 Inbox/Configuração para o Switch POP53 TC TELECOM.md",
-    "Sem título 1.md",
-    "00 Inbox/Anotações Sistema OutCore.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP57_ALT_CAIX01_22042026.md",
-    "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP10_P_EUCALIPTOS_22042026.md",
-    "00 Inbox/Sem título.md",
     "00 Inbox/Sem título 1.md",
     "Sem título.md",
+    "Sem título 1.md",
+    "00 Inbox/Anotações Sistema OutCore.md",
+    "00 Inbox/Sem título.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_BETANIA_VLAN_121_16042026.md",
     "Pessoal/Cyber/Backups/OLTs/Sem título.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_POP13_OLT1_HAVANA_080125.md",
@@ -248,6 +229,7 @@
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP42_ALIANCA_101025.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP14_LOMBA_GRANDE_23022026.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP25_POWER_01042026.md",
+    "Pessoal/Cyber/Backups/NE/BACKUP_PS-CE01-POP00-SCHOSSLER_13042026.md",
     "Pessoal/Cyber/Backups/NE",
     "Pessoal/Cyber/Backups/Switchs",
     "Pessoal/Cyber/Backups/Sem título",
