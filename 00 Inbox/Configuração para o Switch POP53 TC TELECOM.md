@@ -261,9 +261,8 @@ interface l3 L3_VLAN1168_MPLS
 interface loopback 0
  ipv4 address 10.244.188.68/32
 !
-clock timezone BRA -3
+
 hostname SW1POP68_TC_TELECOM
-telnet-server disabled
 
 router ospf 1 vrf global
  router-id 10.244.188.68
@@ -288,5 +287,16 @@ dot1q
   !
  !
 !
+
+```
+
+
+
+
+
+```vbnet
+
+vlan batch 1168
+
 
 ```
