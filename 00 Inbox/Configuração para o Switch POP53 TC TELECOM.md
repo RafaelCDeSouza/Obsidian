@@ -47,4 +47,36 @@ interface l3 L3_VLAN1153_MPLS
  lower-layer-if vlan 1153
  ipv4 address 10.244.153.2/30
 !
+
+interface loopback 0
+ ipv4 address 10.244.188.53/32
+!
+
+router ospf 1 vrf global
+ router-id 10.244.188.53
+ redistribute static
+ !
+ area 0.0.0.0
+  interface l3-L3_VLAN1153_MPLS
+   cost 100
+   bfd
+    session-type desired
+   !
+   network-type point-to-point
+  !
+  interface loopback-0
+  !
+ !
+!
+
+
+dot1q
+ vlan 1153
+  name VL_1153_SW1POP02_SW1POP53_MPLS
+  interface ten-gigabit-ethernet-1/1/2
+  !
+ !
+!
+
+
 ```
