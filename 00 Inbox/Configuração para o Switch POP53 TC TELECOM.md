@@ -331,3 +331,23 @@ network 10.244.168.0 0.0.0.3 description Vlanif1168
 
 
 ```
+
+
+```vbnet
+router ospf 1 vrf global
+ router-id 10.244.188.68
+ redistribute static
+ !
+ area 0.0.0.0
+  interface l3-L3_VLAN1168_MPLS
+   cost 100
+   bfd
+    session-type desired
+   !
+   network-type point-to-point
+  !
+  interface loopback-0
+  !
+ !
+!
+```
