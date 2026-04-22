@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Inbox/Anotações Sistema OutCore.md",
+                "file": "00 Inbox/Configuração para o Switch POP53 TC TELECOM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anotações Sistema OutCore"
+              "title": "Configuração para o Switch POP53 TC TELECOM"
             }
           }
         ],
@@ -223,11 +223,13 @@
   },
   "active": "3c868c2980fd3b30",
   "lastOpenFiles": [
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP10_P_EUCALIPTOS_22042026.md",
+    "00 Inbox/Configuração para o Switch POP53 TC TELECOM.md",
+    "00 Inbox/Anotações Sistema OutCore.md",
     "00 Inbox/Sem título.md",
     "00 Inbox/Sem título 1.md",
     "Sem título.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
-    "00 Inbox/Anotações Sistema OutCore.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_BETANIA_VLAN_121_16042026.md",
     "Pessoal/Cyber/Backups/OLTs/Sem título.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_POP13_OLT1_HAVANA_080125.md",
@@ -248,11 +250,9 @@
     "Pessoal/Cyber/Backups/NE",
     "Pessoal/Cyber/Backups/OLTs/backup_POP13_OLT1_HAVANA_080125.md",
     "Pessoal/Cyber/Backups/OLTs/Backup_POP17_OLT1_ELEA_080126.md",
-    "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_POWER_INTELBRAS_ANTIGA_11042026.md",
     "Pessoal/Cyber/Backups/Switchs",
     "Pessoal/Cyber/Backups/Sem título",
     "Pessoal/Cyber/Backups/OLTs",
-    "Pessoal/Cyber/Backups/backup_POP13_OLT1_HAVANA_080125.md",
     "Pessoal/Cyber/Backups/BACKUP_TELIUM_09032026.txt",
     "Pessoal/Cyber/Backups",
     "Pessoal/Cyber/Procedimentos/OLT Huawei",
