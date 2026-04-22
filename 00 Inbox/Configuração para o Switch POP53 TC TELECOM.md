@@ -212,3 +212,81 @@ interface Eth-Trunk5
 
 
 ```
+
+
+
+
+```kotlin
+(admin@10.244.188.53) Password:
+Welcome to the DmOS CLI
+User admin last logged in 2021-04-01T11:39:05.282386+00:00, to DM4370, from 10.244.19.90 using cli-ssh
+admin connected from 10.244.19.90 using ssh on SW1POP53_TC_TELECOM
+SW1POP53_TC_TELECOM# conf
+Entering configuration mode terminal
+Current configuration users:
+admin ssh (cli from 10.244.19.90) on since 2021-04-01 08:39:05 terminal mode
+SW1POP53_TC_TELECOM(config)# show
+mpls ldp
+ lsr-id loopback-0
+  interface l3-L3_VLAN1168_MPLS
+  !
+  neighbor targeted 10.244.188.0
+  !
+  neighbor targeted 10.244.188.2
+  !
+ !
+!
+mpls l2vpn
+ vpls-group POP68_TC_TELECOM_POP00_ARQUIM
+  vpn VSI_3168_POP00-POP68_TC_TELECOM
+   vfi
+    pw-type ethernet
+    neighbor 10.244.188.0
+     pw-id 3153
+    !
+   !
+   bridge-domain
+    bridge-mtu 9000
+    access-interface ten-gigabit-ethernet-1/1/4
+    !
+   !
+  !
+ !
+!
+
+interface l3 L3_VLAN1168_MPLS
+ lower-layer-if vlan 1168
+ ipv4 address 10.244.168.2/30
+!
+interface loopback 0
+ ipv4 address 10.244.188.68/32
+!
+clock timezone BRA -3
+hostname SW1POP68_TC_TELECOM
+telnet-server disabled
+
+router ospf 1 vrf global
+ router-id 10.244.188.68
+ redistribute static
+ !
+ area 0.0.0.0
+  interface l3-L3_VLAN1168_MPLS
+   cost 100
+   bfd
+    session-type desired
+   !
+   network-type point-to-point
+  !
+  interface loopback-0
+  !
+ !
+!
+dot1q
+ vlan 1168
+  name VL_1168_SW1POP02_SW1POP68_MPLS
+  interface ten-gigabit-ethernet-1/1/2
+  !
+ !
+!
+
+```
