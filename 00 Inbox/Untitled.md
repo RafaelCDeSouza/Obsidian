@@ -1,5 +1,1 @@
-fapsjdfao jdl;akjxhmka
-
-
-adaksbdjnbajd
-ad;aldajh
+Um [[mikrotik]] é não sei o que. 
