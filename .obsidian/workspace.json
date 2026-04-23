@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "BACKUP_SW1POP00_CYBER_22042026_2111"
             }
+          },
+          {
+            "id": "d86369125e7ab317",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,10 +221,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "aa8581563df0e3ef",
+  "active": "d86369125e7ab317",
   "lastOpenFiles": [
-    "00 Inbox/Configuração para o Switch POP53 TC TELECOM.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP00_CYBER_22042026_2111.md",
+    "Untitled.md",
+    "00 Inbox/Configuração para o Switch POP53 TC TELECOM.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP10_P_EUCALIPTOS_22042026.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP57_ALT_CAIX01_22042026.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP00_CYBER_22042026.md",
@@ -233,7 +249,6 @@
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP15_ESTEIO_13042026.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP42_ALIANCA_101025.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP14_LOMBA_GRANDE_23022026.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP25_POWER_01042026.md",
     "Pessoal/Cyber/Backups/NE",
     "Pessoal/Cyber/Backups/Switchs",
     "Pessoal/Cyber/Backups/Sem título",
