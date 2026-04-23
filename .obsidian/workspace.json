@@ -11,10 +11,14 @@
             "id": "d86369125e7ab317",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "99 System/Hermes/Obsidian Automations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian Automations"
             }
           }
         ]
@@ -152,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "99 System/Hermes/Obsidian Automations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Obsidian Automations"
             }
           },
           {
@@ -201,13 +206,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ee633aa2ed2d7a9c",
+  "active": "d86369125e7ab317",
   "lastOpenFiles": [
+    "00 Inbox/Anotações Sistema OutCore.md",
+    "OutCore/Geral/Sem título 1.md",
+    "OutCore/Clientes/Guarida/Solicitações PBX.md",
+    "OutCore/App/Inter/DEV - Chave Privada.md",
+    "OutCore/App/Inter/DEV - Certificado WebHook.md",
+    "OutCore/App/Inter/DEV - Certificado.md",
+    "00 Inbox/mikrotik.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP00_CYBER_22042026_2111.md",
     "00 Inbox/Untitled.md",
-    "00 Inbox/mikrotik.md",
     "00 Inbox/Drawing 2026-04-23 12.30.06.excalidraw.md",
-    "00 Inbox/Anotações Sistema OutCore.md",
     "00 Inbox/BACKUP e RESTORE PSQL.md",
     "00 Inbox/Sem título 1.md",
     "00 Inbox/Sem título.md",
@@ -224,11 +234,6 @@
     "Pessoal/Cyber/Backups/OLTs/BACKUP_POP17_OLT1_ELEA_080126.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_ACATO_POP51_TRESPASSOS.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP00_CYBER_11042026.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP59_INFRAWEB_19032026.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP15_EXPOINTER_09042026.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP57_CAIXA_AG51433-293.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP12_BETANIA_N_04022026.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP13_COND_HAVANA_09042026.md",
     "Pessoal/Cyber/Backups/NE",
     "Pessoal/Cyber/Backups/Switchs",
     "Pessoal/Cyber/Backups/Sem título",
