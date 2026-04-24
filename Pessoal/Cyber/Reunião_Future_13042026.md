@@ -18,7 +18,7 @@ Sugestão trocar o Mikrotik (CGNAT) por um equipamento específico para CGNAT, e
 
 Migração do Dude pro Zabbix, Future vai auxiliar na migração. No primeiro momento a ideia é manter ambos em funcionamento.
 
-Instalar uma VM para ao [CBackup](https://github.com/cBackup/main), para fazermos backups dos equipamentos.
+Instalar uma VM para ao [[[CBackup](https://github.com/cBackup/main)]], para fazermos backups dos equipamentos.
 
 Hoje está assim:
 BGP3 268214
