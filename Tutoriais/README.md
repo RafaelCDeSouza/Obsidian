@@ -1,6 +1,6 @@
-# Tutoriais Cyber
+# Tutoriais
 
-Guia passo a passo para operações comuns na infraestrutura.
+Guia passo a passo para operações técnicas em infraestrutura de rede.
 
 ## Estrutura
 
