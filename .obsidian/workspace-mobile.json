@@ -150,12 +150,25 @@
           "icon": "lucide-list",
           "title": "Sumário"
         }
+      },
+      {
+        "id": "89572d67a7ff9d14",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
       }
     ],
     "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
@@ -165,7 +178,7 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "9629b8bbacbc600d",
+  "active": "a7bc4d11bf1933dc",
   "lastOpenFiles": [
     "Pessoal/Cyber/Reunião_Future_13042026.md"
   ]

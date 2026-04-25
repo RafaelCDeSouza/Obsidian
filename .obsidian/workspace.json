@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "51f1c5b7dfde2c01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "66585bacf0751c50",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "Sem título 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,11 +235,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c868c2980fd3b30",
+  "active": "51f1c5b7dfde2c01",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Sem título.md",
+    "Tutoriais/Novo Linux.md",
+    "OutCore/Geral/Credenciais/CloudFlare e Registro.br.md",
+    "OutCore/Geral/Credenciais",
+    "03 Meetings/Reunião Future - Migração NE e BGP 2025-04-13.md",
     "Pasted image 20260424142132.png",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW2POP20_NAVEGANTES_24042026.md",
-    "Tutoriais/Novo Linux.md",
     "Tutoriais",
     "Pessoal/Cyber/Reunião_Future_13042026.md",
     "Sem título 1.md",
@@ -244,11 +264,8 @@
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP10_P_EUCALIPTOS_22042026.md",
     "00 Inbox/Sem título.md",
     "00 Inbox/Sem título 1.md",
-    "Sem título.md",
     "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_BETANIA_VLAN_121_16042026.md",
     "Pessoal/Cyber/Backups/OLTs/Sem título.md",
-    "Pessoal/Cyber/Backups/OLTs/BACKUP_POP13_OLT1_HAVANA_080125.md",
-    "Pessoal/Cyber/Backups/OLTs/BACKUP_POP17_OLT1_ELEA_080126.md",
     "Pessoal/Cyber/Backups/NE",
     "Pessoal/Cyber/Backups/Switchs",
     "Pessoal/Cyber/Backups/Sem título",
@@ -256,7 +273,6 @@
     "Pessoal/Cyber/Backups/BACKUP_TELIUM_09032026.txt",
     "Pessoal/Cyber/Backups",
     "Pessoal/Cyber/Procedimentos/OLT Huawei",
-    "Pessoal/Cyber/Procedimentos",
-    "Pessoal/Cyber/MPLS e VSIs"
+    "Pessoal/Cyber/Procedimentos"
   ]
 }
