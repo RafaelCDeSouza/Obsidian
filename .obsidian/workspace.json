@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Novo Linux"
             }
-          },
-          {
-            "id": "66585bacf0751c50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Inbox/Untitled 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,8 +205,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ee633aa2ed2d7a9c",
+  "active": "54d0cfb4b8ad7389",
   "lastOpenFiles": [
+    "Pessoal/Cyber/Procedimentos/OLT Huawei/Adicionar ONU - Huawei e Intelbras.md",
+    "Pessoal/Cyber/MPLS e VSIs/Eth-Trunk VLAN 3168 TC Telecom.md",
+    "Pessoal/Cyber/Geral/Comandos BGP e Usuarios NE.md",
+    "Pessoal/Cyber/Configuracoes/Switches POP53/Huawei e DmOS - Configuracao MPLS POP53 TC TELECOM.md",
+    "Pessoal/Cyber/Configuracoes/Switches POP53",
+    "Pessoal/Cyber/Configuracoes/Switches DmOS/DmOS DM4370 - Configuracao Completa.md",
+    "Pessoal/Conhecimentos Gerais/BACKUP e RESTORE PSQL.md",
+    "Pessoal/Conhecimentos Gerais",
+    "02 Projects/OutCore/TODO - Sistema OutCore.md",
+    "02 Projects/OutCore",
     "00 Inbox/Sem título 1 1.md",
     "Tutoriais/Novo Linux.md",
     "00 Inbox/Untitled 1.md",
@@ -244,20 +239,10 @@
     "Pessoal/Cyber/Backups/Switchs/Untitled.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP00_CYBER_22042026.md",
     "00 Inbox/Anotações Sistema OutCore.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP57_ALT_CAIX01_22042026.md",
-    "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_NAVEGANTES_ANTIGA.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP10_P_EUCALIPTOS_22042026.md",
-    "00 Inbox/Sem título.md",
-    "00 Inbox/Sem título 1.md",
-    "Pessoal/Cyber/Backups/OLTs/BACKUP_OLT_BETANIA_VLAN_121_16042026.md",
-    "Pessoal/Cyber/Backups/OLTs/Sem título.md",
     "Pessoal/Cyber/Backups/NE",
     "Pessoal/Cyber/Backups/Switchs",
     "Pessoal/Cyber/Backups/Sem título",
     "Pessoal/Cyber/Backups/OLTs",
-    "Pessoal/Cyber/Backups/BACKUP_TELIUM_09032026.txt",
-    "Pessoal/Cyber/Backups",
-    "Pessoal/Cyber/Procedimentos/OLT Huawei",
-    "Pessoal/Cyber/Procedimentos"
+    "Pessoal/Cyber/Backups/BACKUP_TELIUM_09032026.txt"
   ]
 }
