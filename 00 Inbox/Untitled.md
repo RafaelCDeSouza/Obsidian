@@ -1,1 +1,0 @@
-Um [[mikrotik]] é não sei o que. 
