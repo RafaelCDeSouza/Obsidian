@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3c868c2980fd3b30",
+            "id": "d86369125e7ab317",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutoriais/Novo Linux.md",
+                "file": "99 System/Hermes/Obsidian Automations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Novo Linux"
+              "title": "Obsidian Automations"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 281.5
   },
   "right": {
     "id": "abbd57cc611720ab",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pessoal/Cyber/Geral/Sem título.md",
+                "file": "99 System/Hermes/Obsidian Automations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Sem título"
+              "title": "Outline of Obsidian Automations"
             }
           },
           {
@@ -194,50 +194,51 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ee633aa2ed2d7a9c",
+  "active": "d86369125e7ab317",
   "lastOpenFiles": [
-    "00 Inbox/Untitled 1.md",
-    "Pessoal/Cyber/Procedimentos/OLT Huawei/Adicionar ONU - Huawei e Intelbras.md",
-    "Pessoal/Cyber/MPLS e VSIs/Eth-Trunk VLAN 3168 TC Telecom.md",
+    "00 Inbox/Anotações Sistema OutCore.md",
+    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW2POP20_NAVEGANTES_24042026.md",
     "Pessoal/Cyber/Geral/Comandos BGP e Usuarios NE.md",
+    "Pessoal/Cyber/Procedimentos/OLT Huawei/Adicionar ONU - Huawei e Intelbras.md",
+    "Pessoal/Cyber/Configuracoes/Switches DmOS/DmOS DM4370 - Configuracao Completa.md",
+    "Pessoal/Cyber/MPLS e VSIs/Eth-Trunk VLAN 3168 TC Telecom.md",
     "Pessoal/Cyber/Configuracoes/Switches POP53/Huawei e DmOS - Configuracao MPLS POP53 TC TELECOM.md",
     "Pessoal/Cyber/Configuracoes/Switches POP53",
-    "Pessoal/Cyber/Configuracoes/Switches DmOS/DmOS DM4370 - Configuracao Completa.md",
-    "Pessoal/Conhecimentos Gerais/BACKUP e RESTORE PSQL.md",
-    "Pessoal/Conhecimentos Gerais",
-    "02 Projects/OutCore/TODO - Sistema OutCore.md",
-    "02 Projects/OutCore",
-    "00 Inbox/Sem título 1 1.md",
-    "Tutoriais/Novo Linux.md",
-    "conflict-files-obsidian-git.md",
-    "Sem título.md",
     "OutCore/Geral/Credenciais/CloudFlare e Registro.br.md",
     "OutCore/Geral/Credenciais",
+    "02 Projects/OutCore/TODO - Sistema OutCore.md",
+    "02 Projects/OutCore",
     "03 Meetings/Reunião Future - Migração NE e BGP 2025-04-13.md",
-    "Pasted image 20260424142132.png",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW2POP20_NAVEGANTES_24042026.md",
+    "Tutoriais/Novo Linux.md",
     "Tutoriais",
-    "Pessoal/Cyber/Reunião_Future_13042026.md",
-    "Pessoal/Cyber/Geral/Sem título 15.md",
-    "00 Inbox/Configuração para o Switch POP53 TC TELECOM.md",
+    "Pessoal/Conhecimentos Gerais/BACKUP e RESTORE PSQL.md",
+    "Pessoal/Conhecimentos Gerais",
+    "99 System/Hermes/Obsidian Automations.md",
+    "OutCore/Geral/Sem título 1.md",
+    "OutCore/Clientes/Guarida/Solicitações PBX.md",
+    "OutCore/App/Inter/DEV - Chave Privada.md",
+    "OutCore/App/Inter/DEV - Certificado WebHook.md",
+    "OutCore/App/Inter/DEV - Certificado.md",
     "00 Inbox/mikrotik.md",
-    "00 Inbox/Drawing 2026-04-23 12.30.06.excalidraw.md",
-    "00 Inbox/Untitled.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP00_CYBER_22042026_2111.md",
-    "Pessoal/Cyber/Backups/Switchs/Untitled.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP00_CYBER_22042026.md",
-    "00 Inbox/Anotações Sistema OutCore.md",
+    "00 Inbox/Untitled.md",
+    "00 Inbox/Drawing 2026-04-23 12.30.06.excalidraw.md",
+    "00 Inbox/BACKUP e RESTORE PSQL.md",
+    "00 Inbox/Sem título 1.md",
+    "00 Inbox/Sem título.md",
+    "Untitled.md",
     "Pessoal/Cyber/Backups/NE",
     "Pessoal/Cyber/Backups/Switchs",
     "Pessoal/Cyber/Backups/Sem título",
