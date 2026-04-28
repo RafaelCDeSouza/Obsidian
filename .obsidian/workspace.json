@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99 System/Hermes/Obsidian Automations.md",
+                "file": "Tutoriais/Linux/Configurar Servidor Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Automations"
+              "title": "Configurar Servidor Linux"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99 System/Hermes/Obsidian Automations.md",
+                "file": "Tutoriais/Linux/Configurar Servidor Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obsidian Automations"
+              "title": "Outline of Configurar Servidor Linux"
             }
           },
           {
@@ -208,6 +208,15 @@
   },
   "active": "d86369125e7ab317",
   "lastOpenFiles": [
+    "Tutoriais/README.md",
+    "90 Templates/Meeting.md",
+    "Tutoriais/Linux/Configurar Servidor Linux.md",
+    "Tutoriais/Linux",
+    "Pessoal/Cyber/Procedimentos/OLT Huawei/Tutorial - Adicionar ONU em OLT Huawei.md",
+    "90 Templates/Backup Template.md",
+    "00 Inbox/Untitled.md",
+    "00 Inbox/Drawing 2026-04-28 13.44.07.excalidraw.md",
+    "99 System/Hermes/Obsidian Automations.md",
     "00 Inbox/Anotações Sistema OutCore.md",
     "Pessoal/Cyber/Backups/Switchs/BACKUP_SW2POP20_NAVEGANTES_24042026.md",
     "Pessoal/Cyber/Geral/Comandos BGP e Usuarios NE.md",
@@ -225,24 +234,15 @@
     "Tutoriais",
     "Pessoal/Conhecimentos Gerais/BACKUP e RESTORE PSQL.md",
     "Pessoal/Conhecimentos Gerais",
-    "99 System/Hermes/Obsidian Automations.md",
     "OutCore/Geral/Sem título 1.md",
     "OutCore/Clientes/Guarida/Solicitações PBX.md",
     "OutCore/App/Inter/DEV - Chave Privada.md",
     "OutCore/App/Inter/DEV - Certificado WebHook.md",
     "OutCore/App/Inter/DEV - Certificado.md",
     "00 Inbox/mikrotik.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW1POP00_CYBER_22042026_2111.md",
-    "00 Inbox/Untitled.md",
-    "00 Inbox/Drawing 2026-04-23 12.30.06.excalidraw.md",
-    "00 Inbox/BACKUP e RESTORE PSQL.md",
-    "00 Inbox/Sem título 1.md",
-    "00 Inbox/Sem título.md",
-    "Untitled.md",
     "Pessoal/Cyber/Backups/NE",
     "Pessoal/Cyber/Backups/Switchs",
     "Pessoal/Cyber/Backups/Sem título",
-    "Pessoal/Cyber/Backups/OLTs",
-    "Pessoal/Cyber/Backups/BACKUP_TELIUM_09032026.txt"
+    "Pessoal/Cyber/Backups/OLTs"
   ]
 }
