@@ -42,6 +42,7 @@ Centralizar procedimentos que funcionaram, exports de configuração e trechos i
 - [[Pessoal/Cyber/MPLS e VSIs/Huawei VSI POP70 e POP10 - Trechos de Configuracao|Huawei VSI POP70 e POP10 - Trechos de Configuração]]
 
 ## Próximo passo sugerido
+
 Quando você quiser, eu posso padronizar o conteúdo dessas notas em formato mais útil para operação, por exemplo:
 - Resumo do objetivo
 - Equipamento / POP
