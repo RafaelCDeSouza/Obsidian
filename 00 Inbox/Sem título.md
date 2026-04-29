@@ -3,10 +3,6 @@ interface l3 L3_VLAN1123_MPLS
  lower-layer-if vlan 1123
  ipv4 address 10.244.123.2/30
 !
-interface l3 L3_VLAN1223_MPLS
- lower-layer-if vlan 1223
- ipv4 address 10.244.123.6/30
-!
 interface loopback 0
  ipv4 address 10.244.188.23/32
 !
@@ -14,10 +10,11 @@ interface l3 L3_VLAN1222_MPLS
  lower-layer-if vlan 1222
  ipv4 address 10.244.122.5/30
 !
-interface l3 L3_VLAN1225_MPLS
+interface l3 VLAN1225_SW1POP15_SW1POP25_MPLS
  lower-layer-if vlan 1225
  ipv4 address 10.244.125.5/30
 !
+
 ```
 
 
@@ -85,6 +82,18 @@ vlan 1123
   !
  !
 !
+vlan 1222
+  name VLAN1115_SW1POP44_SW1POP15_MPLS
+  interface ten-gigabit-ethernet-1/1/2
+  !
+ !
+!
+vlan 1225
+  name VLAN1115_SW1POP44_SW1POP15_MPLS
+  interface ten-gigabit-ethernet-1/1/2
+  !
+ !
+!
 vlan 3001
   name VLAN_3001_DEDICADO_NEUGEBAUER
   interface ten-gigabit-ethernet-1/1/1
@@ -97,12 +106,61 @@ vlan 3256
   !
  !
 !
+```
 
+```go
+router ospf 1 vrf global
+ router-id 10.244.188.123
+ redistribute static
+ !
+ area 0.0.0.0
+  interface l3-L3_VLAN1123_MPLS
+   cost 10
+   bfd
+    session-type desired
+   !
+   network-type point-to-point
+  !
+  interface loopback-0
+  !
+ !
+!
+```
 
-3001
-3256
+```lua
+clock timezone BRA -3
+hostname SW1POP23_ESTEIO
+snmp community CyberWeb
+ sec-name CyberWeb
+!
+```
 
-
-
-
+```kotlin
+interface gigabit-ethernet 1/1/1
+ shutdown
+!
+interface gigabit-ethernet 1/1/2
+ shutdown
+!
+interface gigabit-ethernet 1/1/3
+ shutdown
+!
+interface gigabit-ethernet 1/1/4
+ shutdown
+!
+interface gigabit-ethernet 1/1/5
+ shutdown
+!
+interface gigabit-ethernet 1/1/6
+ shutdown
+!
+interface gigabit-ethernet 1/1/7
+ shutdown
+!
+interface gigabit-ethernet 1/1/8
+ shutdown
+!
+interface ten-gigabit-ethernet 1/1/4
+ shutdown
+!
 ```
