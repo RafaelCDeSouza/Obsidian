@@ -10,7 +10,7 @@ interface l3 L3_VLAN1222_MPLS
  lower-layer-if vlan 1222
  ipv4 address 10.244.122.5/30
 !
-interface l3 L3_VLAN1222_MPLS
+interface l3 VLAN1225_SW1POP15_SW1POP25_MPLS
  lower-layer-if vlan 1225
  ipv4 address 10.244.125.5/30
 !
@@ -131,23 +131,13 @@ router ospf 1 vrf global
    network-type point-to-point
   !  
  !
-  interface l3-L3_VLAN1222_MPLS
+  interface l3-VLAN1225_SW1POP15_SW1POP25_MPLS
    cost 10
    bfd
     session-type desired
    !
    network-type point-to-point
   !  
- !
-  interface l3-L3_VLAN1222_MPLS
-   cost 10
-   bfd
-    session-type desired
-   !
-   network-type point-to-point
-  !  
- ! 
- 
  
 !
 ```
