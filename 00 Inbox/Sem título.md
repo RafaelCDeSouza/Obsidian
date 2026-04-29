@@ -19,3 +19,85 @@ interface l3 L3_VLAN1225_MPLS
  ipv4 address 10.244.125.5/30
 !
 ```
+
+
+```kotlin
+interface ten-gigabit-ethernet 1/1/1
+ no shutdown
+ description PTP_SW1POP23_PX01_OLT1POP23_PX01
+ no negotiation
+ duplex full
+ speed 10G
+ advertising-abilities 10Mfull 100Mfull 1Gfull
+ mdix normal
+ mtu 12266
+!
+interface ten-gigabit-ethernet 1/1/2
+ no shutdown
+ description PTP_SW1POP15_PX02_SW1POP25_PX02
+ no negotiation
+ duplex full
+ speed 10G
+ advertising-abilities 10Mfull 100Mfull 1Gfull
+ mdix normal
+ mtu 12266
+!
+interface ten-gigabit-ethernet 1/1/3
+ no shutdown
+ description PTP_SW1POP15_PX09_SW1POP44_PX09
+ no negotiation
+ duplex full
+ speed 10G
+ advertising-abilities 10Mfull 100Mfull 1Gfull
+ mdix normal
+ mtu 12266
+!
+
+```
+
+```kotlin
+dot1q
+ vlan 30
+  name VLAN_30_POP03_M_FOLRES_MGNT
+  interface ten-gigabit-ethernet-1/1/1
+  !
+ !
+ vlan 230
+  name VLAN_230_POP23_ESTEIO_GERENCIA
+  interface ten-gigabit-ethernet-1/1/1
+  !
+ !
+ vlan 231
+  name VLAN_231_POP23_ESTEIO_OLT1
+  interface ten-gigabit-ethernet-1/1/1
+  !
+ !
+!
+vlan 233
+  name VLAN_233_POP23_ESTEIO_OLT1
+  interface ten-gigabit-ethernet-1/1/1
+  !
+ !
+!
+vlan 1123
+  name VLAN1115_SW1POP44_SW1POP15_MPLS
+  interface ten-gigabit-ethernet-1/1/9
+  !
+ !
+!
+vlan 1123
+  name VLAN1115_SW1POP44_SW1POP15_MPLS
+  interface ten-gigabit-ethernet-1/1/9
+  !
+ !
+!
+
+
+
+3001
+3256
+
+
+
+
+```
