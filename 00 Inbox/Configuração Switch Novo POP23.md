@@ -355,5 +355,66 @@ ospf 1 router-id 10.244.188.44
 
 
 
-## POP25
+## POP00
+
+```bash
+mpls ldp remote-peer 10.244.189.15
+ remote-ip 10.244.189.15
+#
+vsi VSI_230_POP0-2_POP23_EST_MGNT static
+ pwsignal ldp
+  vsi-id 230
+  peer 10.244.189.15
+  traffic-statistics enable
+ mtu 9000
+ encapsulation ethernet
+#
+vsi VSI_231_POP0-2_POP23_EST_OLT1 static
+ pwsignal ldp
+  vsi-id 231
+  peer 10.244.189.15
+  traffic-statistics enable
+ mtu 9000
+ encapsulation ethernet
+#
+vsi VSI_233_POP0-2_POP23_EST_OLT1 static
+ pwsignal ldp
+  vsi-id 233
+  peer 10.244.189.15
+  traffic-statistics enable
+ mtu 9000
+ encapsulation ethernet
+#
+vsi VSI_151_CY_POP0-2_POP15_EX_OLT1 static
+ pwsignal ldp
+  vsi-id 151
+  peer 10.244.188.15
+  peer 10.244.189.15
+  traffic-statistics enable
+ mtu 9000
+ encapsulation ethernet
+#
+vsi VSI_150_CY_POP00_POP15_EXP_MGNT static
+ pwsignal ldp
+  vsi-id 150
+  peer 10.244.189.15
+  traffic-statistics enable
+ mtu 9000
+ encapsulation ethernet
+#
+vsi VSI_3160_CY_POP00_PROV_NIC_TELE static
+ pwsignal ldp
+  vsi-id 3160
+  peer 10.244.188.15
+  peer 10.244.189.15
+ mtu 9000
+ encapsulation ethernet
+#
+
+
+
+
+
+```
+
 
