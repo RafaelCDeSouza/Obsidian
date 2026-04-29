@@ -314,3 +314,48 @@ vpls-group VSI_30_CY_POP0-2_POP03_M_F_MGNT
    !
  !
 ```
+
+
+
+POP44
+```yaml
+vlan batch 1123 1115 1120 1142 1144 1146 1249 to 1250 3341 3602 4094
+
+vlan 1123
+ description VLAN1123_SW1POP44_SW1POP23_MPLS
+
+interface Vlanif1123
+ mtu 9216
+ description VLAN1115_SW1POP44_SW1POP23_MPLS
+ ip address 10.244.123.1 255.255.255.252
+ ospf cost 10
+ ospf network-type p2p
+ mpls
+ mpls te
+ mpls rsvp-te
+ mpls ldp
+#
+
+interface 10GE1/0/9
+ description PTP_SW1POP44_PX09_SW1POP23_PX03
+ port trunk allow-pass vlan 1115
+ port trunk allow-pass vlan 1123
+ #
+
+ospf 1 router-id 10.244.188.44
+ undo silent-interface Vlanif1120
+ opaque-capability enable
+ area 0.0.0.0
+  network 10.244.115.0 0.0.0.3 description vlan1115
+  network 10.244.120.0 0.0.0.3 description vlan1120
+  network 10.244.144.0 0.0.0.3 description vlan1144
+  network 10.244.146.0 0.0.0.3 description Vlanif1146
+  network 10.244.149.4 0.0.0.3 description vlan1249
+  network 10.244.150.4 0.0.0.3 description vlan1250
+  mpls-te enable
+#
+
+```
+
+
+
