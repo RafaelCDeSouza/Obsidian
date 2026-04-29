@@ -175,6 +175,6 @@ mpls ldp
   neighbor targeted 10.244.188.19
   neighbor targeted 10.244.188.20
   neighbor targeted 10.244.189.11
-   
+  neighbor targeted 10.244.188.2 
   !
 ```
