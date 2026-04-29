@@ -85,13 +85,18 @@ vlan 1123
   !
  !
 !
-vlan 1123
-  name VLAN1115_SW1POP44_SW1POP15_MPLS
-  interface ten-gigabit-ethernet-1/1/9
+vlan 3001
+  name VLAN_3001_DEDICADO_NEUGEBAUER
+  interface ten-gigabit-ethernet-1/1/1
   !
  !
 !
-
+vlan 3256
+  name VLAN_3256_TRANSP_TELIUM_DIVERSOS
+  interface ten-gigabit-ethernet-1/1/1
+  !
+ !
+!
 
 
 3001
