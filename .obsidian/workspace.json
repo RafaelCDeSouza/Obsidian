@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
+              "title": "Files"
             }
           },
           {
@@ -194,18 +194,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false,
-      "obsidian-git:Open Git source control": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "d86369125e7ab317",
   "lastOpenFiles": [
+    "00 Inbox/Sem título.md",
+    "00 Inbox/BACKUP_SW1POP25_POWER_29042026.md",
+    "00 Inbox/BACKUP_.md",
     "Tutoriais/README.md",
     "90 Templates/Meeting.md",
     "Tutoriais/Linux/Configurar Servidor Linux.md",
@@ -235,9 +240,6 @@
     "OutCore/Geral/Sem título 1.md",
     "OutCore/Clientes/Guarida/Solicitações PBX.md",
     "OutCore/App/Inter/DEV - Chave Privada.md",
-    "OutCore/App/Inter/DEV - Certificado WebHook.md",
-    "OutCore/App/Inter/DEV - Certificado.md",
-    "00 Inbox/mikrotik.md",
     "Pessoal/Cyber/Backups/NE",
     "Pessoal/Cyber/Backups/Switchs",
     "Pessoal/Cyber/Backups/Sem título",
