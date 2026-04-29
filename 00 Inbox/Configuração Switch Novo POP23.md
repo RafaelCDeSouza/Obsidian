@@ -422,3 +422,64 @@ vsi VSI_3160_CY_POP00_PROV_NIC_TELE static
 ```
 
 
+## POP02
+
+
+```bash
+mpls ldp remote-peer 10.244.189.15
+ remote-ip 10.244.189.15
+#
+vsi VSI_151_POP00-02_POP15_EXP_OLT1 static
+ pwsignal ldp
+  vsi-id 151
+  peer 10.244.188.15
+  peer 10.244.189.15
+  traffic-statistics enable
+ mtu 9000
+ encapsulation ethernet
+#
+vsi VSI_3260_SC_POP02_PROV_NIC_TELE static
+ pwsignal ldp
+  vsi-id 3260
+  peer 10.244.188.15
+  peer 10.244.189.15
+  traffic-statistics enable
+ mtu 9000
+ encapsulation ethernet
+#
+
+vsi VSI_3001_POP02_POP15_NEUGEBAUER static
+ pwsignal ldp
+  vsi-id 3001
+  peer 10.244.189.15
+  traffic-statistics enable
+ mtu 9000
+ encapsulation ethernet
+#
+vsi VSI_3256_NOC0_NOC2_TR_CL_TELIUM static
+ pwsignal ldp
+  vsi-id 3256
+  peer 10.244.188.125
+  peer 10.244.188.8
+  peer 10.244.188.59
+  peer 10.244.189.3
+  peer 10.244.189.0
+  peer 10.244.188.15
+  peer 10.244.189.5
+  peer 10.244.189.15
+  peer 10.244.188.17
+  peer 10.244.189.11
+  peer 10.244.188.22
+ mtu 9000
+ encapsulation ethernet
+#
+vsi VSI_150_POP00-02_POP15_EXP_MGNT static
+ pwsignal ldp
+  vsi-id 150
+  peer 10.244.188.15
+  peer 10.244.189.15
+  traffic-statistics enable
+ mtu 9000
+ encapsulation ethernet
+#
+```
