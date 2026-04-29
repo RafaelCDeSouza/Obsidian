@@ -78,7 +78,7 @@ vlan 233
 !
 vlan 1123
   name VLAN1115_SW1POP44_SW1POP15_MPLS
-  interface ten-gigabit-ethernet-1/1/9
+  interface ten-gigabit-ethernet-1/1/3
   !
  !
 !
@@ -163,4 +163,18 @@ interface gigabit-ethernet 1/1/8
 interface ten-gigabit-ethernet 1/1/4
  shutdown
 !
+```
+
+
+```kotlin
+mpls ldp
+ lsr-id loopback-0
+  interface l3-L3_VLAN1123_MPLS
+  !
+  neighbor targeted 10.244.189.0
+  neighbor targeted 10.244.188.19
+  neighbor targeted 10.244.188.20
+  neighbor targeted 10.244.189.11
+   
+  !
 ```
