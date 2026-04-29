@@ -166,6 +166,14 @@ interface ten-gigabit-ethernet 1/1/4
 ```
 
 
+
+
+
+
+
+
+
+
 ```kotlin
 mpls ldp
  lsr-id loopback-0
@@ -177,4 +185,125 @@ mpls ldp
   neighbor targeted 10.244.189.11
   neighbor targeted 10.244.188.2 
   !
+```
+
+```kotlin
+mpls l2vpn
+ vpls-group VSI_230_POP23_OLT
+  vpn VSI_230_POP0-2_POP23_EST_MGNT
+   vfi
+    pw-type ethernet
+    neighbor 10.244.189.0
+     pw-id 230
+    !
+   !
+   vfi
+    pw-type ethernet
+    neighbor 10.244.188.2
+     pw-id 230
+    !
+   !   
+   bridge-domain
+    dot1q 230
+    bridge-mtu 9000
+    access-interface gigabit-ethernet-1/1/1
+    !
+   !
+  vpn VSI_231_POP0-2_POP23_EST_OLT
+   vfi
+    pw-type ethernet
+    neighbor 10.244.189.0
+     pw-id 231
+    !
+   !
+   vfi
+    pw-type ethernet
+    neighbor 10.244.188.2
+     pw-id 231
+    !
+   !   
+   bridge-domain
+    dot1q 231
+    bridge-mtu 9000
+    access-interface gigabit-ethernet-1/1/1
+    !
+   !   
+  !
+  vpn VSI_233_POP0-2_POP23_EST_OLT
+   vfi
+    pw-type ethernet
+    neighbor 10.244.189.0
+     pw-id 233
+    !
+   !
+   vfi
+    pw-type ethernet
+    neighbor 10.244.188.2
+     pw-id 233
+    !
+   !   
+   bridge-domain
+    dot1q 233
+    bridge-mtu 9000
+    access-interface gigabit-ethernet-1/1/1
+    !
+   !   
+  !  
+ !
+ 
+ vpls-group VSI_3256_SC_POP02_TR_CL_TELIUM
+  vpn VSI_3256_SC_POP02_TR_CL_TELIUM
+   vfi
+    pw-type ethernet
+    neighbor 10.244.189.0
+     pw-id 3256
+    !
+   !
+   vfi
+    pw-type ethernet
+    neighbor 10.244.188.2
+     pw-id 3256
+    !
+   !   
+   bridge-domain
+    dot1q 3256
+    bridge-mtu 9000
+    access-interface gigabit-ethernet-1/1/1
+    !
+   !
+vpls-group VSI_3001_POP00_POP23_NEUGEBAUER
+  vpn VSI_3001_POP00_POP23_NEUGEBAUER
+   vfi
+    pw-type ethernet
+    neighbor 10.244.189.0
+     pw-id 3001
+    !
+   !
+   vfi
+    pw-type ethernet
+    neighbor 10.244.188.2
+     pw-id 3001
+    !
+   !   
+   bridge-domain
+    dot1q 3001
+    bridge-mtu 9000
+    access-interface gigabit-ethernet-1/1/1
+    !
+   !
+vpls-group VSI_30_CY_POP0-2_POP03_M_F_MGNT
+  vpn VSI_30_CY_POP0-2_POP03_M_F_MGNT
+   vfi
+    pw-type ethernet
+    neighbor 10.244.189.0
+     pw-id 30
+    !
+   ! 
+   bridge-domain
+    dot1q 30
+    bridge-mtu 9000
+    access-interface gigabit-ethernet-1/1/1
+    !
+   !
+ !
 ```
