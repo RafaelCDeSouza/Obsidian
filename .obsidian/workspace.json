@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Inbox/BACKUP_SW1POP15_ESTEIO_29052026.md",
+                "file": "00 Inbox/Configuração Switch Novo POP23.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BACKUP_SW1POP15_ESTEIO_29052026"
+              "title": "Configuração Switch Novo POP23"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "BACKUP_SW1POP13_COND_HAVANA_29042026"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -234,13 +235,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d86369125e7ab317",
+  "active": "632259ba5879a097",
   "lastOpenFiles": [
-    "00 Inbox/BACKUP_SW1POP44_ADYLNET_29042026.md",
-    "00 Inbox/Configuração Switch Novo POP23.md",
-    "00 Inbox/BACKUP_SW1POP13_COND_HAVANA_29042026.md",
-    "00 Inbox/BACKUP_SW1POP15_ESTEIO_29052026.md",
     "00 Inbox/BACKUP_SW1POP25_POWER_29042026.md",
+    "00 Inbox/BACKUP_SW1POP15_ESTEIO_29052026.md",
+    "00 Inbox/Configuração Switch Novo POP23.md",
+    "00 Inbox/BACKUP_SW1POP44_ADYLNET_29042026.md",
+    "00 Inbox/BACKUP_SW1POP13_COND_HAVANA_29042026.md",
     "00 Inbox/Untitled.md",
     "Tutoriais/Linux/Configurar Servidor Linux.md",
     "Tutoriais/README.md",
