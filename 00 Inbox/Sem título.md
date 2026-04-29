@@ -10,13 +10,12 @@ interface l3 L3_VLAN1223_MPLS
 interface loopback 0
  ipv4 address 10.244.188.23/32
 !
-
 interface l3 L3_VLAN1222_MPLS
  lower-layer-if vlan 1222
- ipv4 address 10.244.122.6/30
+ ipv4 address 10.244.122.5/30
 !
 interface l3 L3_VLAN1225_MPLS
  lower-layer-if vlan 1225
- ipv4 address 10.244.123.6/30
+ ipv4 address 10.244.125.5/30
 !
 ```
