@@ -171,6 +171,32 @@ interface XGigabitEthernet0/0/5
 ```
 
 
+```graphql
+interface Vlanif1465
+ description VLAN_1465_SW1POP65_SW2PO13_MPLS
+ mtu 9216
+ ip address 10.244.165.13 255.255.255.252
+ ospf cost 10
+ ospf network-type p2p
+ ospf enable 1 area 0.0.0.0
+ mpls
+ mpls te
+ mpls rsvp-te
+ mpls ldp
+#
+```
+
+
+
+```undefined
+vlan 1465
+ description VLAN_1465_MPLS_POP13_POP65
+```
+
+
+
+
+
 ## POP65 (Banrisul)
 
 
