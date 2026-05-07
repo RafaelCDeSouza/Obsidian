@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pessoal/Cyber/Geral/Script Mikrotik Cyber.md",
+                "file": "00 Inbox/Configuração Novo Switch HAVANA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Script Mikrotik Cyber"
+              "title": "Configuração Novo Switch HAVANA"
             }
           },
           {
@@ -238,6 +238,9 @@
   },
   "active": "632259ba5879a097",
   "lastOpenFiles": [
+    "00 Inbox/BACKUP_SW1POP15_ESTEIO_ANTIGO.md",
+    "00 Inbox/Configuração Novo Switch HAVANA.md",
+    "Pessoal/Cyber/Geral/Script Mikrotik Cyber.md",
     "Pessoal/Cyber/Configuracoes/RouterOS/CCR1036 OutCore - Export RouterOS 7.20 2025-10-14.md",
     "Pessoal/Cyber/Configuracoes/RouterOS/Firewall OutCore Telium - Export RouterOS 7.20 2025-10-22.md",
     "Tutoriais/Linux/Configurar Servidor Linux.md",
@@ -262,9 +265,6 @@
     "90 Templates/Backup Template.md",
     "00 Inbox/Drawing 2026-04-28 13.44.07.excalidraw.md",
     "99 System/Hermes/Obsidian Automations.md",
-    "00 Inbox/Anotações Sistema OutCore.md",
-    "Pessoal/Cyber/Backups/Switchs/BACKUP_SW2POP20_NAVEGANTES_24042026.md",
-    "Pessoal/Cyber/Geral/Comandos BGP e Usuarios NE.md",
     "Pessoal/Cyber/Configuracoes/Switches POP53",
     "OutCore/Geral/Credenciais",
     "02 Projects/OutCore",
