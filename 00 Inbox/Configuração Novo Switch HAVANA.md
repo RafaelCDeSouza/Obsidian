@@ -165,17 +165,17 @@ interface XGigabitEthernet0/0/5
  port link-type trunk
  l2protocol-tunnel stp lldp enable
  undo port trunk allow-pass vlan 1
- port trunk allow-pass vlan 1147
+ port trunk allow-pass vlan 1145
  jumboframe enable 12288
 #
 ```
 
 
 ```graphql
-interface Vlanif1465
- description VLAN_1465_SW1POP65_SW2PO13_MPLS
+interface Vlanif1145
+ description VLAN_1145_SW1POP45_SW2PO13_MPLS
  mtu 9216
- ip address 10.244.165.13 255.255.255.252
+ ip address 10.244.145.1 255.255.255.252
  ospf cost 10
  ospf network-type p2p
  ospf enable 1 area 0.0.0.0
@@ -201,23 +201,6 @@ vlan 1465
 
 
 ```kotlin
-
-dot1q
- vlan 1465
-  interface ten-gigabit-ethernet-1/1/1
-  !
- !
-
-interface l3 vlanif1465
- lower-layer-if vlan 1465
- ipv4 address 10.244.165.14/30
-!
-
-interface ten-gigabit-ethernet 1/1/1
- description PTP_SW1POP65_PX01_SW1POP13_PX05
- no shutdown
-
-
 
 
 
