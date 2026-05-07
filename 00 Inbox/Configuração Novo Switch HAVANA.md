@@ -1,3 +1,9 @@
+## POP13
+
+Transceivers 
+Porta 5 - 1270 - 1330
+
+
 ```undefined
 sysname SW2POP13_HAVANA
 router id 10.244.189.13
@@ -186,11 +192,10 @@ interface ten-gigabit-ethernet 1/1/1
  no shutdown
 
 
-router ospf 1 vrf global
- area 0.0.0.0
-  interface l3-vlanif1465
-   cost 10
-   network-type point-to-point
+
+
+
+
   !
  !
 !
