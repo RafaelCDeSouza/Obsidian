@@ -26,11 +26,6 @@ mpls
 mpls l2vpn
 
 
-ntp-service server disable
-ntp-service ipv6 server disable
-ntp-service unicast-server 200.189.40.8
-ntp-service unicast-server 200.160.0.8
-
 snmp-agent
 snmp-agent community read cipher %^%#rW^YCfmZn6`yx1&u}Qy@9\O[0&:\FQ3rmKSj0OW'/O{%>rTl"/{ckuSdp)JN;5zW@2@w\V<9+M!]*5FN%^%#
 snmp-agent sys-info contact CyberWeb
@@ -38,6 +33,7 @@ snmp-agent sys-info location -30.0059644,-51.1923515
 snmp-agent sys-info version v2c v3
 snmp-agent protocol source-status all-interface
 undo snmp-agent protocol source-status ipv6 all-interface
+
 
 stelnet server enable
 ssh client first-time enable
@@ -154,5 +150,16 @@ ospf 1 router-id 10.244.189.13
  opaque-capability enable
  area 0.0.0.0
   mpls-te enable
+#
+```
+
+```python
+interface XGigabitEthernet0/0/5
+ description PTP_SW2POP13_PX05_SW1POP65_PX01
+ port link-type trunk
+ l2protocol-tunnel stp lldp enable
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 1147
+ jumboframe enable 12288
 #
 ```
