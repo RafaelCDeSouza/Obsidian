@@ -163,3 +163,37 @@ interface XGigabitEthernet0/0/5
  jumboframe enable 12288
 #
 ```
+
+
+## POP65 (Banrisul)
+
+
+```kotlin
+
+dot1q
+ vlan 1465
+  interface ten-gigabit-ethernet-1/1/1
+  !
+ !
+
+interface l3 vlanif1465
+ lower-layer-if vlan 1465
+ ipv4 address 10.244.165.14/30
+!
+
+interface ten-gigabit-ethernet 1/1/1
+ description PTP_SW1POP65_PX01_SW1POP13_PX05
+ no shutdown
+
+
+router ospf 1 vrf global
+ area 0.0.0.0
+  interface l3-vlanif1465
+   cost 10
+   network-type point-to-point
+  !
+ !
+!
+
+
+```
