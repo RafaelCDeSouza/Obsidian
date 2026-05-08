@@ -35,8 +35,7 @@
               "title": "BACKUUP_SW1POP65_BANRISUL_08052026"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,10 +221,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "585009bb7f0a4450",
+  "active": "d86369125e7ab317",
   "lastOpenFiles": [
-    "00 Inbox/BACKUP_SW1POP18_PROCEMPA_08052026.md",
     "00 Inbox/BACKUUP_SW1POP65_BANRISUL_08052026.md",
+    "00 Inbox/BACKUP_SW1POP18_PROCEMPA_08052026.md",
     "00 Inbox/BACKUP_SW1POP13_COND_HAVANA_29042026.md",
     "00 Inbox/Configuração Switch Novo POP23.md",
     "00 Inbox/BACKUP_SW1POP02_TELIUM_08052026.md",

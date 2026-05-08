@@ -468,3 +468,12 @@ vsi VSI_150_POP00-02_POP15_EXP_MGNT static
 
 
 
+```go
+interface l3-L3_VLAN1113_MPLS1
+   cost 10
+   bfd
+    session-type desired
+   !
+   network-type point-to-point
+  !
+```
