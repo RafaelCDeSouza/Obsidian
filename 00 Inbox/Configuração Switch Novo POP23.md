@@ -465,3 +465,27 @@ vsi VSI_150_POP00-02_POP15_EXP_MGNT static
   undo peer 10.244.188.15
   peer 10.244.188.23#
 ```
+
+
+
+```swift
+snmp-agent
+snmp-agent local-engineid 800007DB036881E0CEFDA0
+snmp-agent community read cipher %^%#rW^YCfmZn6`yx1&u}Qy@9\O[0&:\FQ3rmKSj0OW'/O{%>rTl"/{ckuSdp)JN;5zW@2@w\V<9+M!]*5FN%^%#
+snmp-agent sys-info contact CyberWeb
+snmp-agent sys-info location -30.0059644,-51.1923515
+snmp-agent sys-info version v2c v3
+snmp-agent protocol source-status all-interface
+undo snmp-agent protocol source-status ipv6 all-interface
+```
+
+```swift
+snmp-agent
+snmp-agent local-engineid 800007DB030CC6CCC68E10
+snmp-agent community read cipher %^%#rW^YCfmZn6`yx1&u}Qy@9\O[0&:\FQ3rmKSj0OW'/O{%>rTl"/{ckuSdp)JN;5zW@2@w\V<9+M!]*5FN%^%#
+snmp-agent sys-info contact CyberWeb
+snmp-agent sys-info location -30.0059644,-51.1923515
+snmp-agent sys-info version v2c v3
+snmp-agent protocol source-status all-interface
+undo snmp-agent protocol source-status ipv6 all-interface
+```
