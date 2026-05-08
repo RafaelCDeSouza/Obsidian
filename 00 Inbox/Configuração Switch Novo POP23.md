@@ -479,3 +479,61 @@ interface l3-L3_VLAN1313_OSPF_SW1
    network-type point-to-point
   !
 ```
+
+```kotlin
+ 21,3106 - POP02
+ 
+ 1113 - POP65
+ 
+ 1118,1219 - 
+ 
+
+ vlan 1118,1219
+  interface ten-gigabit-ethernet-1/1/2
+  !
+  interface ten-gigabit-ethernet-1/1/3
+  !
+ !
+ vlan 1145
+  name VLAN1145_SW1POP13_SW1POP45_MPLS
+  interface ten-gigabit-ethernet-1/1/1
+  !
+ !
+ vlan 1213
+  name VLAN1213_SW1POP02_SW1POP13_OSPF
+  interface ten-gigabit-ethernet-1/1/2
+  !
+ !
+ vlan 1265
+  name VLAN1265_SW1POP13_SW1POP65_OSPF
+  interface ten-gigabit-ethernet-1/1/1
+  !
+ !
+ vlan 1313
+  interface ten-gigabit-ethernet-1/1/4
+  !
+ !
+ vlan 1365
+  name VLAN1365_SW2POP65_POP13_SW1POP02
+  interface ten-gigabit-ethernet-1/1/2
+  !
+  interface ten-gigabit-ethernet-1/1/3
+  !
+ !
+ vlan 3005
+  name VLAN_3005_TRANSP_L2_TELIUM
+  interface lag-1
+  !
+  interface ten-gigabit-ethernet-1/1/3
+  !
+ !
+ vlan 3104-3105
+  interface lag-1
+  !
+  interface ten-gigabit-ethernet-1/1/2
+  !
+  interface ten-gigabit-ethernet-1/1/3
+  !
+ !
+!
+```
