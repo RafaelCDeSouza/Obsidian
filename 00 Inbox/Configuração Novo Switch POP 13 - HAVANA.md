@@ -530,3 +530,7 @@ vsi VSI_130_POP0-2_POP13_C_HA_MGNT static
  encapsulation ethernet
 #
 ```
+```cpp
+vsi VSI_130_POP02_POP13_MGT_OLT1 static
+ pwsignal ldp
+```
