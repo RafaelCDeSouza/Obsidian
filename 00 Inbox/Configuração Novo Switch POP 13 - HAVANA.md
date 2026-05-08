@@ -550,11 +550,94 @@ vsi VSI_130_POP0-2_POP13_C_HA_MGNT static
 ```
 
 ```go
+
+
+mpls l2vpn
+ vpls-group POP00-02_POP13_C_HAVANA
+  vpn VSI_131_POP0-2_POP13_C_HAV_OLT1
+   vfi
+    pw-type ethernet
+    neighbor 10.244.188.2
+     pw-id 131
+    !
+    neighbor 10.244.189.0
+     pw-id 131
+    !
+   !
+   bridge-domain
+    dot1q 131
+    bridge-mtu 9000
+    access-interface lag-1
+    !
+   !
+  !
+  vpn VSI_133_POP0-2_POP13_C_HAV_OLT1
+   vfi
+    pw-type ethernet
+    neighbor 10.244.188.2
+     pw-id 133
+    !
+    neighbor 10.244.189.0
+     pw-id 133
+    !
+   !
+   bridge-domain
+    dot1q 133
+    bridge-mtu 9000
+    access-interface lag-1
+    !
+   !
+  !
+  vpn VSI_3107_POP00_POP02_TR_POA_SEG
+   vfi
+    pw-type ethernet
+    neighbor 10.244.189.0
+     pw-id 3107
+    !
+   !
+   bridge-domain
+    dot1q 3107
+    bridge-mtu 9000
+    access-interface lag-1
+    !
+   !
+  !
+  vpn VSI_3907_POP02-42_TR1_ALIANCA
+   vfi
+    pw-type ethernet
+    neighbor 10.244.188.2
+     pw-id 3907
+    !
+   !
+   bridge-domain
+    dot1q 3907
+    bridge-mtu 9000
+    access-interface lag-1
+    !
+   !
+  !
+ !
+ vpls-group POP12_BETANIA_POP13_C_HAVANA
+  vpn 3510
+   vfi
+    pw-type ethernet
+    neighbor 10.244.189.12
+     pw-id 3510
+    !
+   !
+   bridge-domain
+    dot1q 3510
+    bridge-mtu 9000
+    access-interface lag-1
+    !
+   !
+  !
+ !
  vpls-group POP13_C_HAVANA_MGNT_OLT
   vpn VSI_130_POP13_C_HAV_OLT_MGNT
    vfi
     pw-type ethernet
-    neighbor 10.244.189.0
+    neighbor 10.244.188.2
      pw-id 130
     !
    !
@@ -566,4 +649,26 @@ vsi VSI_130_POP0-2_POP13_C_HA_MGNT static
    !
   !
  !
+ vpls-group POP13_C_HAVANA_POP05_M_RINCAO
+  vpn VSI_3540_POP05_TR_MEDIANET_PPOE
+   vfi
+    pw-type ethernet
+    neighbor 10.244.188.5
+     pw-id 3540
+    !
+   !
+   bridge-domain
+    dot1q 3540
+    bridge-mtu 9000
+    access-interface lag-1
+    !
+   !
+  !
+ !
+!
+
+
+
+
+
 ```
