@@ -469,7 +469,9 @@ vsi VSI_150_POP00-02_POP15_EXP_MGNT static
 
 
 ```go
-interface l3-L3_VLAN1113_MPLS1
+router ospf 1 vrf global
+ area 0.0.0.0
+interface l3-L3_VLAN1313_OSPF_SW1
    cost 10
    bfd
     session-type desired
