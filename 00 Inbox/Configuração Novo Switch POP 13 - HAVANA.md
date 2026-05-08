@@ -534,3 +534,36 @@ vsi VSI_130_POP0-2_POP13_C_HA_MGNT static
 vsi VSI_130_POP02_POP13_MGT_OLT1 static
  pwsignal ldp
 ```
+
+
+```bash
+vsi VSI_130_POP0-2_POP13_C_HA_MGNT static
+ pwsignal ldp
+  vsi-id 130
+  peer 10.244.189.0
+  peer 10.244.189.13
+  peer 10.244.188.13
+  traffic-statistics enable
+ mtu 9000
+ encapsulation ethernet
+#
+```
+
+```go
+ vpls-group POP13_C_HAVANA_MGNT_OLT
+  vpn VSI_130_POP13_C_HAV_OLT_MGNT
+   vfi
+    pw-type ethernet
+    neighbor 10.244.189.0
+     pw-id 130
+    !
+   !
+   bridge-domain
+    dot1q 130
+    bridge-mtu 9000
+    access-interface lag-1
+    !
+   !
+  !
+ !
+```

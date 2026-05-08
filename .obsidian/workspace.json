@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pessoal/Cyber/Backups/OLTs/BACKUP_POP13_OLT1_HAVANA_080125.md",
+                "file": "00 Inbox/Configuração Novo Switch POP 13 - HAVANA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BACKUP_POP13_OLT1_HAVANA_080125"
+              "title": "Configuração Novo Switch POP 13 - HAVANA"
             }
           },
           {
@@ -223,6 +223,7 @@
   },
   "active": "d86369125e7ab317",
   "lastOpenFiles": [
+    "Pessoal/Cyber/Backups/OLTs/BACKUP_POP13_OLT1_HAVANA_080125.md",
     "00 Inbox/Configuração Novo Switch POP 13 - HAVANA.md",
     "00 Inbox/Configuração Switch Novo POP23.md",
     "00 Inbox/BACKUUP_SW1POP65_BANRISUL_08052026.md",
@@ -249,7 +250,6 @@
     "Tutoriais/README.md",
     "90 Templates/Meeting.md",
     "Tutoriais/Linux",
-    "Pessoal/Cyber/Procedimentos/OLT Huawei/Tutorial - Adicionar ONU em OLT Huawei.md",
     "Pessoal/Cyber/Configuracoes/Switches POP53",
     "OutCore/Geral/Credenciais",
     "02 Projects/OutCore",
