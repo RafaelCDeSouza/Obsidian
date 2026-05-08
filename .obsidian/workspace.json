@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Inbox/Configuração Novo Switch POP 13 - HAVANA.md",
+                "file": "Pessoal/Cyber/Backups/OLTs/BACKUP_POP13_OLT1_HAVANA_080125.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configuração Novo Switch POP 13 - HAVANA"
+              "title": "BACKUP_POP13_OLT1_HAVANA_080125"
             }
           },
           {
@@ -223,12 +223,12 @@
   },
   "active": "d86369125e7ab317",
   "lastOpenFiles": [
+    "00 Inbox/Configuração Novo Switch POP 13 - HAVANA.md",
     "00 Inbox/Configuração Switch Novo POP23.md",
     "00 Inbox/BACKUUP_SW1POP65_BANRISUL_08052026.md",
     "00 Inbox/BACKUP_SW1POP18_PROCEMPA_08052026.md",
     "00 Inbox/BACKUP_SW1POP13_COND_HAVANA_29042026.md",
     "00 Inbox/BACKUP_SW1POP02_TELIUM_08052026.md",
-    "00 Inbox/Configuração Novo Switch POP 13 - HAVANA.md",
     "00 Inbox/Instalação Proxmox OutCore  30042026.md",
     "00 Inbox/Reunião Garden 07-05-2026 - 17h11m.md",
     "00 Inbox/Reunião Garden - 29-04-2026.md",
