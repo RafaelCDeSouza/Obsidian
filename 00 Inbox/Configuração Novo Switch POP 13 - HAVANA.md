@@ -508,3 +508,11 @@ vsi VSI3510_RN_FENIX_NA_CYBER_PPPOE static
   peer 10.244.189.13
 #
 ```
+
+```csharp
+vsi VSI_130_POP0-2_POP13_C_HA_MGNT static
+ pwsignal ldp
+  vsi-id 130
+  peer 10.244.188.13
+ 
+```
