@@ -516,3 +516,17 @@ vsi VSI_130_POP0-2_POP13_C_HA_MGNT static
   peer 10.244.188.13
  
 ```
+
+
+```bash
+vsi VSI_130_POP0-2_POP13_C_HA_MGNT static
+ pwsignal ldp
+  vsi-id 130
+  peer 10.244.189.0
+  peer 10.244.189.13
+  peer 10.244.188.13
+  traffic-statistics enable
+ mtu 9000
+ encapsulation ethernet
+#
+```
