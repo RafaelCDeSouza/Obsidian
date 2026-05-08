@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Inbox/Configuração Novo Switch HAVANA.md",
+                "file": "00 Inbox/Configuração Novo Switch POP 13 - HAVANA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Configuração Novo Switch HAVANA"
+              "title": "Configuração Novo Switch POP 13 - HAVANA"
             }
           },
           {
@@ -236,13 +236,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "ee633aa2ed2d7a9c",
+  "active": "632259ba5879a097",
   "lastOpenFiles": [
     "00 Inbox/Configuração Switch Novo POP23.md",
     "00 Inbox/Instalação Proxmox OutCore  30042026.md",
     "00 Inbox/Reunião Garden 07-05-2026 - 17h11m.md",
     "00 Inbox/Reunião Garden - 29-04-2026.md",
-    "00 Inbox/Configuração Novo Switch HAVANA.md",
+    "00 Inbox/Configuração Novo Switch POP 13 - HAVANA.md",
     "Tutoriais/Linux/Configurar Servidor Linux.md",
     "00 Inbox/BACKUP_SW1POP15_ESTEIO_ANTIGO.md",
     "Pessoal/Cyber/Geral/Script Mikrotik Cyber.md",

@@ -202,6 +202,7 @@ vlan 1465
 
 ```python
 
+[SW2POP13_HAVANA]display current-configuration
 !Software Version V200R022C00SPC500
 #
 sysname SW2POP13_HAVANA
@@ -266,6 +267,9 @@ aaa
  domain default_admin
   authentication-scheme default
   accounting-scheme default
+ local-user admin password irreversible-cipher $1c$g_d3B5B]*A$zK*V5jx&k3K/Lj-;r;=Ma0A!"uS\UEap)HQc#"h4$
+ local-user admin privilege level 15
+ local-user admin service-type ssh http
 #
 ntp-service server disable
 ntp-service ipv6 server disable
@@ -401,7 +405,7 @@ undo icmp name timestamp-request receive
 #
 snmp-agent
 snmp-agent local-engineid 800007DB030CC6CCC68E10
-snmp-agent community read cipher %^%#rW^YCfmZn6`yx1&u}Qy@9\O[0&:\FQ3rmKSj0OW'/O{%>rTl"/{ckuSdp)JN;5zW@2@w\V<9+M!]*5FN%^%#
+snmp-agent community read cipher %^%#!TkD,#"sk*_\(3X"P)y#gj>X7tEiV%InMTOz(C#6gdaQQ)I4^T-q|q&o"Ay:q)@^L't2i3[4X!NYBWb%%^%#
 snmp-agent sys-info contact CyberWeb
 snmp-agent sys-info location -30.0059644,-51.1923515
 snmp-agent sys-info version v2c v3
@@ -438,6 +442,7 @@ ops
 remote-unit
 #
 return
-<SW2POP13_HAVANA>
 
 ```
+
+
