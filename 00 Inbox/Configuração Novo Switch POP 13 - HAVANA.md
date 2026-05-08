@@ -449,6 +449,9 @@ return
 ## POP00
 
 ```bash
+mpls ldp remote-peer 10.244.189.13
+ remote-ip 10.244.189.13
+#
 vsi VSI_133_POP0-2_POP13_C_HAV_OLT1 static
  pwsignal ldp
   peer 10.244.189.13
@@ -460,4 +463,48 @@ vsi VSI_3107_POP00_POP02_TR_POA_SEG static
  vsi VSI_131_POP0-2_POP13_C_HAV_OLT1 static
  pwsignal ldp
   peer 10.244.189.13
+```
+
+
+## POP002
+```yaml
+mpls ldp remote-peer 10.244.189.13
+ remote-ip 10.244.189.13
+#
+vsi VSI_3907_POP02-42_TR1_ALIANCA static
+ pwsignal ldp
+  peer 10.244.189.13
+#
+vsi VSI_133_CY_POP0-2_POP13_HA_OLT1 static
+ pwsignal ldp
+  peer 10.244.189.13
+
+vsi VSI_131_CY_POP0-2_POP13_HA_OLT1 static
+ pwsignal ldp
+  peer 10.244.189.13
+```
+
+## POP05
+
+```bash
+mpls ldp remote-peer 10.244.189.13
+ remote-ip 10.244.189.13
+#
+vsi VSI3540_RN_MEDIA_NA_CYBER_PPPOE static
+ pwsignal ldp
+  peer 10.244.189.13
+#`
+```
+
+
+## POP12
+
+```bash
+mpls ldp remote-peer 10.244.189.13
+ remote-ip 10.244.189.13
+#
+vsi VSI3510_RN_FENIX_NA_CYBER_PPPOE static
+ pwsignal ldp
+  peer 10.244.189.13
+#
 ```
