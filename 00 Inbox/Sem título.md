@@ -27,28 +27,6 @@ interface XGigabitEthernet0/0/3
 
 ```kotlin
 ospf 1 router-id 10.244.189.0
- default-route-advertise
- bfd all-interfaces enable
- import-route direct cost 15 type 1
- import-route static cost 15 type 1
- silent-interface all
- undo silent-interface Vlanif1112
- undo silent-interface Vlanif1100
- undo silent-interface Vlanif1108
- undo silent-interface Vlanif1166
- undo silent-interface Vlanif1152
- undo silent-interface Vlanif1125
- undo silent-interface Vlanif2733
- undo silent-interface Vlanif1121
- undo silent-interface Vlanif1195
- undo silent-interface Vlanif1295
- undo silent-interface Vlanif1144
- undo silent-interface Vlanif2311
- opaque-capability enable
  area 0.0.0.0
-  network 10.244.100.0 0.0.0.3 description Vlanif1100
-  network 10.244.100.4 0.0.0.3 description Vlanif1201
-  network 10.244.100.8 0.0.0.3 description Vlanif2733_TR_VERO
-  network 10.244.105.8 0.0.0.3 description Vlanif1305
-  network 10.244.106.0 0.0.0.3 description Vlanif1106
+  undo network 10.244.106.0 0.0.0.3 description Vlanif1106
 ```
